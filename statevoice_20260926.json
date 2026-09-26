@@ -1,0 +1,3671 @@
+{
+ "kind": "ghostloom-statevoice",
+ "tool": "DALABA",
+ "version": "1.0.0",
+ "synthetic": false,
+ "generated": "2026-09-26T05:17:47Z",
+ "window": {
+  "days": 28,
+  "start": "2026-08-30",
+  "end": "2026-09-26",
+  "tz": "UTC+8 (Beijing) dates"
+ },
+ "codebook": {
+  "version": "2026.09.26-sv3",
+  "seams": {
+   "DC": "Data centers drain power, water and wallets",
+   "MIL": "AI is a war and surveillance machine",
+   "BUB": "AI is a bubble and the US will pay for it",
+   "TRUST": "Western AI is biased, captured or unsafe",
+   "JOBS": "AI is taking jobs and livelihoods",
+   "ART": "AI art is theft and slop is flooding the internet",
+   "DOOM": "AI could end humanity",
+   "BOY": "Boycott and reject AI"
+  },
+  "prc": {
+   "AI_PRC_POSITIVE": "Chinese AI promoted",
+   "EXPORT_CONTROLS": "Export controls and chip curbs",
+   "TECH_TARIFFS": "Tariffs framed as tech domination",
+   "US_DECLINE": "US decline",
+   "PRC_OFFICIAL_PHRASING": "Official PRC phrasing",
+   "AI_GOVERNANCE": "China as AI governance leader",
+   "AI_COOPERATION": "US-China AI cooperation",
+   "POWER_CONTRAST": "China's ample power vs US grid strain",
+   "SAFETY_AS_CONTAINMENT": "US AI safety framed as containment",
+   "COLD_WAR_FRAME": "Cold War or containment framing",
+   "AI_US_TARGET": "US AI firms named"
+  }
+ },
+ "sources": [
+  {
+   "id": "cgtn-business",
+   "outlet": "CGTN",
+   "type": "rss",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "cgtn-china",
+   "outlet": "CGTN",
+   "type": "rss",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "cgtn-world",
+   "outlet": "CGTN",
+   "type": "rss",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "chinadaily-opinion",
+   "outlet": "China Daily",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "chinadaily-tech",
+   "outlet": "China Daily",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "chinadaily-world",
+   "outlet": "China Daily",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "ecns-scitech",
+   "outlet": "China News Service",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "ecns-voices",
+   "outlet": "China News Service",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "globaltimes-business",
+   "outlet": "Global Times",
+   "type": "html-index",
+   "pulls": 3,
+   "ok": 3,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:57:27Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "globaltimes-opinion",
+   "outlet": "Global Times",
+   "type": "html-index",
+   "pulls": 3,
+   "ok": 3,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:57:27Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "globaltimes-world",
+   "outlet": "Global Times",
+   "type": "html-index",
+   "pulls": 3,
+   "ok": 3,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:57:27Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "govcn-news",
+   "outlet": "State Council (gov.cn)",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "govcn-policies",
+   "outlet": "State Council (gov.cn)",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "mfa-pressers",
+   "outlet": "PRC Foreign Ministry",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "peoplesdaily-opinion",
+   "outlet": "People's Daily",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "peoplesdaily-scitech",
+   "outlet": "People's Daily",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "peoplesdaily-zh-opinion",
+   "outlet": "People's Daily (Chinese)",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "peoplesdaily-zh-world",
+   "outlet": "People's Daily (Chinese)",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "xinhua-latest",
+   "outlet": "Xinhua",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "xinhua-world",
+   "outlet": "Xinhua",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "xinhua-zh-tech",
+   "outlet": "Xinhua (Chinese)",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "xinhua-zh-world",
+   "outlet": "Xinhua (Chinese)",
+   "type": "html-index",
+   "pulls": 1,
+   "ok": 1,
+   "gaps": [],
+   "last_pull": "2026-09-26T04:44:26Z",
+   "last_status": "ok",
+   "last_http": 200,
+   "first_pull": "2026-09-26T04:44:26Z"
+  }
+ ],
+ "volume": {
+  "State Council (gov.cn)": {
+   "2026-09-01": [
+    1,
+    0
+   ],
+   "2026-09-04": [
+    1,
+    0
+   ],
+   "2026-09-05": [
+    1,
+    0
+   ],
+   "2026-09-15": [
+    2,
+    0
+   ],
+   "2026-09-24": [
+    1,
+    0
+   ],
+   "2026-09-25": [
+    10,
+    1
+   ],
+   "2026-09-26": [
+    5,
+    0
+   ]
+  },
+  "China News Service": {
+   "2026-09-01": [
+    1,
+    1
+   ],
+   "2026-09-02": [
+    1,
+    0
+   ],
+   "2026-09-14": [
+    2,
+    1
+   ],
+   "2026-09-15": [
+    1,
+    0
+   ],
+   "2026-09-16": [
+    2,
+    0
+   ],
+   "2026-09-17": [
+    1,
+    0
+   ],
+   "2026-09-20": [
+    1,
+    0
+   ],
+   "2026-09-21": [
+    2,
+    0
+   ],
+   "2026-09-22": [
+    2,
+    1
+   ],
+   "2026-09-23": [
+    2,
+    0
+   ],
+   "2026-09-24": [
+    6,
+    0
+   ],
+   "2026-09-25": [
+    4,
+    0
+   ],
+   "2026-09-26": [
+    1,
+    0
+   ]
+  },
+  "Global Times": {
+   "2026-09-01": [
+    1,
+    1
+   ],
+   "2026-09-04": [
+    1,
+    1
+   ],
+   "2026-09-06": [
+    1,
+    1
+   ],
+   "2026-09-08": [
+    1,
+    1
+   ],
+   "2026-09-13": [
+    1,
+    1
+   ],
+   "2026-09-15": [
+    1,
+    1
+   ],
+   "2026-09-16": [
+    1,
+    1
+   ],
+   "2026-09-17": [
+    1,
+    1
+   ],
+   "2026-09-18": [
+    2,
+    1
+   ],
+   "2026-09-19": [
+    2,
+    2
+   ],
+   "2026-09-20": [
+    7,
+    7
+   ],
+   "2026-09-21": [
+    4,
+    4
+   ],
+   "2026-09-22": [
+    6,
+    5
+   ],
+   "2026-09-23": [
+    4,
+    4
+   ],
+   "2026-09-24": [
+    3,
+    3
+   ],
+   "2026-09-26": [
+    1,
+    1
+   ]
+  },
+  "China Daily": {
+   "2026-09-02": [
+    1,
+    0
+   ],
+   "2026-09-07": [
+    1,
+    0
+   ],
+   "2026-09-08": [
+    1,
+    0
+   ],
+   "2026-09-09": [
+    1,
+    0
+   ],
+   "2026-09-11": [
+    3,
+    0
+   ],
+   "2026-09-14": [
+    2,
+    0
+   ],
+   "2026-09-15": [
+    1,
+    0
+   ],
+   "2026-09-16": [
+    3,
+    1
+   ],
+   "2026-09-17": [
+    4,
+    1
+   ],
+   "2026-09-19": [
+    1,
+    0
+   ],
+   "2026-09-20": [
+    3,
+    1
+   ],
+   "2026-09-21": [
+    9,
+    3
+   ],
+   "2026-09-22": [
+    12,
+    1
+   ],
+   "2026-09-23": [
+    26,
+    6
+   ],
+   "2026-09-24": [
+    23,
+    4
+   ],
+   "2026-09-25": [
+    6,
+    2
+   ],
+   "2026-09-26": [
+    1,
+    1
+   ]
+  },
+  "People's Daily (Chinese)": {
+   "2026-09-03": [
+    1,
+    0
+   ],
+   "2026-09-04": [
+    4,
+    0
+   ],
+   "2026-09-08": [
+    1,
+    0
+   ],
+   "2026-09-10": [
+    2,
+    0
+   ],
+   "2026-09-11": [
+    1,
+    0
+   ],
+   "2026-09-12": [
+    2,
+    1
+   ],
+   "2026-09-14": [
+    1,
+    0
+   ],
+   "2026-09-15": [
+    4,
+    0
+   ],
+   "2026-09-17": [
+    4,
+    0
+   ],
+   "2026-09-18": [
+    9,
+    2
+   ],
+   "2026-09-20": [
+    2,
+    0
+   ],
+   "2026-09-21": [
+    6,
+    2
+   ],
+   "2026-09-22": [
+    7,
+    0
+   ],
+   "2026-09-23": [
+    23,
+    2
+   ],
+   "2026-09-24": [
+    26,
+    0
+   ],
+   "2026-09-25": [
+    2,
+    0
+   ],
+   "2026-09-26": [
+    16,
+    0
+   ]
+  },
+  "Xinhua (Chinese)": {
+   "2026-09-03": [
+    1,
+    1
+   ],
+   "2026-09-04": [
+    1,
+    1
+   ],
+   "2026-09-07": [
+    1,
+    0
+   ],
+   "2026-09-08": [
+    1,
+    0
+   ],
+   "2026-09-10": [
+    2,
+    0
+   ],
+   "2026-09-14": [
+    1,
+    0
+   ],
+   "2026-09-16": [
+    1,
+    0
+   ],
+   "2026-09-17": [
+    1,
+    0
+   ],
+   "2026-09-18": [
+    1,
+    0
+   ],
+   "2026-09-19": [
+    1,
+    1
+   ],
+   "2026-09-20": [
+    2,
+    1
+   ],
+   "2026-09-21": [
+    3,
+    0
+   ],
+   "2026-09-22": [
+    5,
+    0
+   ],
+   "2026-09-23": [
+    19,
+    5
+   ],
+   "2026-09-24": [
+    22,
+    2
+   ],
+   "2026-09-25": [
+    18,
+    0
+   ],
+   "2026-09-26": [
+    17,
+    3
+   ]
+  },
+  "Xinhua": {
+   "2026-09-13": [
+    1,
+    0
+   ],
+   "2026-09-23": [
+    2,
+    0
+   ],
+   "2026-09-24": [
+    1,
+    0
+   ],
+   "2026-09-25": [
+    7,
+    0
+   ],
+   "2026-09-26": [
+    33,
+    0
+   ]
+  },
+  "CGTN": {
+   "2026-09-13": [
+    2,
+    0
+   ],
+   "2026-09-14": [
+    5,
+    2
+   ],
+   "2026-09-15": [
+    7,
+    1
+   ],
+   "2026-09-16": [
+    2,
+    1
+   ],
+   "2026-09-17": [
+    7,
+    1
+   ],
+   "2026-09-19": [
+    1,
+    0
+   ],
+   "2026-09-20": [
+    1,
+    1
+   ],
+   "2026-09-21": [
+    10,
+    0
+   ],
+   "2026-09-23": [
+    5,
+    0
+   ],
+   "2026-09-24": [
+    23,
+    2
+   ],
+   "2026-09-25": [
+    39,
+    2
+   ],
+   "2026-09-26": [
+    21,
+    0
+   ]
+  },
+  "PRC Foreign Ministry": {
+   "2026-09-16": [
+    1,
+    0
+   ],
+   "2026-09-17": [
+    1,
+    0
+   ],
+   "2026-09-18": [
+    1,
+    0
+   ],
+   "2026-09-21": [
+    1,
+    1
+   ],
+   "2026-09-22": [
+    1,
+    1
+   ],
+   "2026-09-23": [
+    1,
+    0
+   ],
+   "2026-09-24": [
+    1,
+    1
+   ]
+  },
+  "People's Daily": {
+   "2026-09-17": [
+    1,
+    0
+   ],
+   "2026-09-18": [
+    6,
+    1
+   ],
+   "2026-09-20": [
+    6,
+    0
+   ],
+   "2026-09-21": [
+    14,
+    1
+   ],
+   "2026-09-22": [
+    5,
+    1
+   ],
+   "2026-09-23": [
+    6,
+    2
+   ],
+   "2026-09-24": [
+    5,
+    0
+   ],
+   "2026-09-25": [
+    1,
+    0
+   ],
+   "2026-09-26": [
+    1,
+    0
+   ]
+  }
+ },
+ "counts": {
+  "items": 609,
+  "ai": 98,
+  "by_outlet": {
+   "State Council (gov.cn)": {
+    "items": 21,
+    "ai": 1
+   },
+   "China News Service": {
+    "items": 26,
+    "ai": 3
+   },
+   "Global Times": {
+    "items": 37,
+    "ai": 35
+   },
+   "China Daily": {
+    "items": 98,
+    "ai": 20
+   },
+   "People's Daily (Chinese)": {
+    "items": 111,
+    "ai": 7
+   },
+   "Xinhua (Chinese)": {
+    "items": 97,
+    "ai": 14
+   },
+   "Xinhua": {
+    "items": 44,
+    "ai": 0
+   },
+   "CGTN": {
+    "items": 123,
+    "ai": 10
+   },
+   "PRC Foreign Ministry": {
+    "items": 7,
+    "ai": 3
+   },
+   "People's Daily": {
+    "items": 45,
+    "ai": 5
+   }
+  },
+  "by_seam": {
+   "MIL": 4,
+   "DOOM": 1,
+   "BUB": 1,
+   "DC": 2,
+   "TRUST": 1
+  },
+  "by_prc": {
+   "AI_GOVERNANCE": 11,
+   "PRC_OFFICIAL_PHRASING": 10,
+   "COLD_WAR_FRAME": 6,
+   "AI_PRC_POSITIVE": 9,
+   "AI_US_TARGET": 7,
+   "AI_COOPERATION": 7,
+   "EXPORT_CONTROLS": 1,
+   "POWER_CONTRAST": 1
+  },
+  "month_only": {
+   "Global Times": 382
+  }
+ },
+ "items": [
+  {
+   "id": "073c898d0a1654f5",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-26T04:00:00Z",
+   "day": "2026-09-26",
+   "date_q": "url",
+   "title": "在数贸会，见证具身智能应用打开新空间",
+   "url": "http://www.xinhuanet.com/tech/20260926/f1b02bd48d02401cba40ebf8d1042bc7/c.html",
+   "summary": "",
+   "excerpts": [
+    "第五届全球数字贸易博览会于9月23日至27日在杭州举行。一批具身智能产品集中亮相，展现智能科技的新应用。在这里，人形机器人、智能仿生设备不再只是“表演者”，而是在真实场景中展示作业能力。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "在数贸会,见证具身智能应用打开新空间 第五届全球数字贸易博览会于9月23日至27日在杭州举行。一批具身…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "25e82c20ae70f43e",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-26T04:00:00Z",
+   "day": "2026-09-26",
+   "date_q": "url",
+   "title": "国内规模化AI机器人主题乐园亮相横琴",
+   "url": "http://www.xinhuanet.com/tech/20260926/9518dae58c1b4497ba0d4f0c47ab066e/c.html",
+   "summary": "",
+   "excerpts": [
+    "9月24日，长隆集团携手智元创新打造的具身智能主题乐园——横琴长隆飞船乐园落地运营。乐园全域部署近千台具身智能机器人，覆盖演艺、AI科普、智能导览、研学教育、智能伴游、酒店接待六大场景。机器人不再局限于固定程序表演，可自主感知完成光影舞蹈，开展科普互动，还能承担园区引路、物资配送等服务，从展品转变为可陪伴、可互动的游园伙伴。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "国内规模化AI机器人主题乐园亮相横琴 9月24日,长隆集团携手智元创新打造的具身智能主题乐园-…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "368d49a749befaa3",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-26T04:00:00Z",
+   "day": "2026-09-26",
+   "date_q": "url",
+   "title": "China-US AI cooperation mooted",
+   "url": "https://www.chinadaily.com.cn/a/202609/26/WS6ab708f5e4b06d4aa05604ae.html",
+   "summary": "",
+   "excerpts": [
+    "Contrary to the common misconception that China and the United States cannot cooperate on artificial intelligence, the two countries can work together on a mutually beneficial basis, as both have a vested interest in ensuring that the technology is not misused, according to a US business leader.",
+    "In an exclusive interview with China Daily, Sean Stein, president of the US-China Business Council, said that as the world's two most technologically advanced countries, closer cooperation on AI safety could become a critical stabilizing force in bilateral relations.",
+    "\"The safety side is really important,\" Stein said. \"That's where we can have a meaningful conversation, because both countries have got a definite interest in preventing hackers from manipulating AI to attack financial systems, steal data or endanger critical infrastructure.\""
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_COOPERATION"
+   ],
+   "hits": {
+    "AI": "China-US AI cooperation mooted Contrary to the comm…",
+    "AI_COOPERATION": "China-US AI cooperation mooted Contrary to the common misconcep…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "cf3fb85f209c1bd5",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-26T04:00:00Z",
+   "day": "2026-09-26",
+   "date_q": "url",
+   "title": "“拆解”具身智能机器人 读懂未来产业“新赛道”",
+   "url": "http://www.xinhuanet.com/tech/20260926/3b1ecd4eb01646b1864cfa41896d0086/c.html",
+   "summary": "",
+   "excerpts": [
+    "9月24日，天津大学具身智能研究院正式成立，现场还启动了20亿元的创新产业基金，一批校企联合实验室揭牌，具身智能产教创新联合体同步签约落地。",
+    "发展具身智能，为何要打出这样一套“组合拳”？说到底，研发一台真正实用的具身智能机器人，远比想象中复杂，它需要跨学科协作、产学研联动。我们不妨“拆开”一台机器人，一探究竟。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "“拆解”具身智能机器人 读懂未来产业“新赛道” 9月24日,天津大学具身智能研究院正式成立,现场…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "39415a15c708f59c",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-25T23:31:00Z",
+   "day": "2026-09-26",
+   "date_q": "page",
+   "title": "Digital trade, AI inject new momentum into China-Africa ties",
+   "url": "https://www.globaltimes.cn/page/202609/1371347.shtml",
+   "summary": "",
+   "excerpts": [
+    "As the digital economy accelerates, artificial intelligence (AI) has become a new growth driver for China-Africa economic and trade cooperation, driven by expanding practical applications, according to a new report.",
+    "The application of AI is shifting from a future option to a real agenda in China-Africa cooperation, the report found. This shift is characterized by strong application-scenario drives. Cooperation has expanded into areas such as disaster prevention, healthcare, smart agriculture and urban governance.",
+    "Bah called for linking Chinese digital trade industrial parks with African special economic zones and industrial parks, and combining cloud computing, data centers, smart logistics and AI with manufacturing and processing."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Digital trade, AI inject new momentum into China-Africa t…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "750d2e1e36255fdd",
+   "outlet": "CGTN",
+   "source": "cgtn-china",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-25T10:31:52Z",
+   "day": "2026-09-25",
+   "date_q": "feed",
+   "title": "AI reshapes digital trade at Hangzhou expo",
+   "url": "https://news.cgtn.com/news/2026-09-25/AI-reshapes-digital-trade-at-Hangzhou-expo-1QJdl42weyI/p.html",
+   "summary": "AI reshapes digital trade at Hangzhou expo",
+   "excerpts": [
+    "Artificial intelligence (AI) is moving beyond the role of a technology on display. At the fifth Global Digital Trade Expo (GDTE) in Hangzhou, capital city of east China's Zhejiang Province, AI is emerging as a product, a service and part of the infrastructure behind digital trade.",
+    "Held from September 23 to 27 under the theme \"Meet the AI Future at GDTE,\" the expo features more than 2,000 exhibitors across 170,000 square meters. Its AI section showcases data services, model applications, embodied intelligence and smart terminals, while exploring cross-border models such as model-as-a-service.",
+    "The shift is visible in the products and services on display. AI is being integrated into smart devices, robots and office tools, as well as enterprise platforms that connect data, computing power, models and applications. The emphasis is increasingly on turning AI capabilities into products and services that can be used in real business settings."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "AI reshapes digital trade at Hangzhou expo…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "a70498abbe44290d",
+   "outlet": "CGTN",
+   "source": "cgtn-china",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-25T10:14:55Z",
+   "day": "2026-09-25",
+   "date_q": "feed",
+   "title": "China, US can deepen AI cooperation amid competition, experts say",
+   "url": "https://news.cgtn.com/news/2026-09-25/China-US-can-deepen-AI-cooperation-amid-competition-experts-say-1QIZ4zoA8GQ/p.html",
+   "summary": "As artificial intelligence (AI) develops rapidly, experts believe that China and the United States can strengthen cooperation on shared challenges and ensure the technology can serve the well-being of the people.",
+   "excerpts": [
+    "A robot tightens screws at the 2026 Inclusion Conference on the Bund, Shanghai, China, September 10, 2026. /VCG",
+    "As artificial intelligence (AI) develops rapidly, experts believe that China and the United States can strengthen cooperation on shared challenges and ensure the technology can serve the well-being of the people.",
+    "Chinese President Xi Jinping said on Thursday that despite AI competition, China and the US have even more reasons to cooperate . In his talks with US President Donald Trump at the White House, Xi noted that the two sides should leverage respective strengths in AI rather than guarding against each other."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_COOPERATION"
+   ],
+   "hits": {
+    "AI": "China, US can deepen AI cooperation amid competition, experts s…",
+    "AI_COOPERATION": "China, US can deepen AI cooperation amid competition, experts say As artifi…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "633fad22b74f2583",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-25T04:00:00Z",
+   "day": "2026-09-25",
+   "date_q": "url",
+   "title": "Chinese factories embrace robot-driven production",
+   "url": "https://www.chinadaily.com.cn/a/202609/25/WS6ab5ab56e4b06d4aa05601de.html",
+   "summary": "",
+   "excerpts": [
+    "China accounted for nearly three out of every five industrial robots installed worldwide last year, showing the country's accelerating automation of manufacturing while positioning robotics and artificial intelligence at the center of its industrial strategy.",
+    "China installed a record 354,000 industrial robots in 2025, equivalent to 59 percent of global installations, according to the World Robotics 2026 report released on Thursday by the International Federation of Robotics (IFR). The figure further cements the country's position as the world's largest industrial robot market.",
+    "The milestone comes as the country deepens its focus on advanced manufacturing under its 15th Five-Year Plan (2026-30), which identifies physical AI and robotics as key engines of future economic growth."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Chinese factories embrace robot-driven production China accounted for n…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "83c4f018201a1cf3",
+   "outlet": "China Daily",
+   "source": "chinadaily-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-25T04:00:00Z",
+   "day": "2026-09-25",
+   "date_q": "url",
+   "title": "Manila plays dangerous game at Ren'ai Reef",
+   "url": "https://www.chinadaily.com.cn/a/202609/25/WS6ab6727de4b06d4aa0560405.html",
+   "summary": "",
+   "excerpts": [
+    "On Thursday, the Philippines reneged on its commitments and ignored China's warnings by sending a supply vessel to deliver provisions to a warship it illegally grounded at Ren'ai Reef in 1999. The China Coast Guard responded with lawful measures, including on-site monitoring and verbal warnings, according to its spokesperson, who urged Manila to stop provoking trouble, saying the China Coast Guard will continue to conduct law-enforcement and rights-protection activities in the Nansha Islands…"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Manila plays dangerous game at Ren'ai Reef On Thursday, the Philippines reneg…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "d7e5d73a33ff535c",
+   "outlet": "State Council (gov.cn)",
+   "source": "govcn-news",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-25T04:00:00Z",
+   "day": "2026-09-25",
+   "date_q": "url",
+   "title": "Xi says China, U.S. have more reasons to cooperate than compete in AI",
+   "url": "https://english.www.gov.cn/news/202609/25/content_WS6ab59fdac6d00ca5f9a0d742.html",
+   "summary": "",
+   "excerpts": [
+    "WASHINGTON, Sept. 24 -- Chinese President Xi Jinping said on Thursday that while China and the United States compete in AI, they have even more reasons to cooperate.",
+    "In his talks with U.S. President Donald Trump at the White House, Xi noted that as both major countries in AI, the two sides should leverage respective strengths in AI rather than guarding against each other.",
+    "The two sides can continue to engage in dialogue on AI, exchange views on its risks and benefits, and work together to prevent the misuse and abuse of AI, Xi said."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_COOPERATION"
+   ],
+   "hits": {
+    "AI": "…re reasons to cooperate than compete in AI WASHINGTON, Sept. 24 -- Chinese Preside…",
+    "AI_COOPERATION": "…Xi Jinping said on Thursday that while China and the United States compete in AI, they have even more reasons to cooperate. In his talks with U.S. President Donal…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "45acfe44dc43a8d9",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-24T09:26:00Z",
+   "day": "2026-09-24",
+   "date_q": "page",
+   "title": "China, US hold first dialogue on AI, to maintain close communication under economic, trade consultation mechanism: MOFCOM",
+   "url": "https://www.globaltimes.cn/page/202609/1371265.shtml",
+   "summary": "",
+   "excerpts": [
+    "China and the US held their first dialogue on artificial intelligence (AI) under the China-US economic and trade consultation mechanism at the recently held eighth round of economic and trade consultations in the US, a Ministry of Commerce (MOFCOM) spokesperson said on Thursday. During the latest round of economic and trade consultation, the two sides reached multiple points of consensus."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_COOPERATION"
+   ],
+   "hits": {
+    "AI": "China, US hold first dialogue on AI, to maintain close communication under…",
+    "AI_COOPERATION": "China, US hold first dialogue on AI, to maintain close communication under…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "7bc7abe8ac74db51",
+   "outlet": "CGTN",
+   "source": "cgtn-world",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-24T09:08:30Z",
+   "day": "2026-09-24",
+   "date_q": "feed",
+   "title": "China, US reach trade consensus and hold first AI dialogue",
+   "url": "https://news.cgtn.com/news/2026-09-24/China-US-reach-trade-consensus-and-hold-first-AI-dialogue-1QHtdYBre0g/p.html",
+   "summary": "China and the United States have reached consensus on multiple fronts during their eighth round of economic and trade consultations, the Ministry of Commerce said on Thursday. Under the consultation mechanism, Vice Premier He Lifeng and Treasury Secretary Scott Bessent held their first dialogue on artificial intelligence.",
+   "excerpts": [
+    "Under the consultation mechanism, Vice Premier He Lifeng, China's lead on economic and trade affairs with Washington, and Treasury Secretary Scott Bessent, the US lead, held their first dialogue on artificial intelligence, said spokesperson He Yadong."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_COOPERATION"
+   ],
+   "hits": {
+    "AI": "…US reach trade consensus and hold first AI dialogue China and the United States ha…",
+    "AI_COOPERATION": "China, US reach trade consensus and hold first AI dialogue China and the United States have reache…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "71736fb857e6ae64",
+   "outlet": "CGTN",
+   "source": "cgtn-world",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-24T08:58:02Z",
+   "day": "2026-09-24",
+   "date_q": "feed",
+   "title": "OpenAI breach of Australian healthcare unacceptable: Deputy PM",
+   "url": "https://news.cgtn.com/news/2026-09-24/OpenAI-breach-of-Australian-healthcare-unacceptable-Deputy-PM-1QHsio2E23u/p.html",
+   "summary": "OpenAI breach of Australian healthcare unacceptable: Deputy PM",
+   "excerpts": [
+    "Australia's Deputy Prime Minister said on Thursday that a breach of the nation's universal healthcare system by an OpenAI agent was utterly unacceptable.",
+    "Albanese disclosed the incident while speaking in New York on Wednesday night, revealing that an OpenAI agent had gained unauthorized access to a Medicare data portal in June and accessed both public and non-public files.",
+    "He said that Services Australia, the government agency that administers the portal, was not notified by OpenAI until earlier in September."
+   ],
+   "ai": true,
+   "seams": [
+    "TRUST"
+   ],
+   "prc": [
+    "AI_US_TARGET"
+   ],
+   "hits": {
+    "AI": "OpenAI breach of Australian healthcare unaccep…",
+    "TRUST": "OpenAI breach of Australian healthcare unacceptable:…",
+    "AI_US_TARGET": "OpenAI breach of Australian healthcare unaccep…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "089d6dcff66eb45a",
+   "outlet": "PRC Foreign Ministry",
+   "source": "mfa-pressers",
+   "lang": "en",
+   "kind": "presser",
+   "date": "2026-09-24T04:00:00Z",
+   "day": "2026-09-24",
+   "date_q": "url",
+   "title": "Foreign Ministry Spokesperson Guo Jiakun’s Regular Press Conference on September 24, 2026",
+   "url": "https://www.fmprc.gov.cn/eng/xw/fyrbt/lxjzh/202609/t20260924_12030731.html",
+   "summary": "",
+   "excerpts": [
+    "CGTN: We’ve noted that the fifth Global Digital Trade Expo (GDTE) opened in Hangzhou this morning under the theme “Meet the AI Future at GDTE.” Premier Li Qiang attended and addressed the launching ceremony. Can you share more information on that? / Guo Jiakun: This morning, the fifth GDTE opened in Hangzhou. Premier Li Qiang attended and addressed the launching ceremony. Leaders including Malaysian Prime Minister Anwar Ibrahim and Chairman of the Cabinet of Ministers of Kyrgyzstan Adylbek Aleshovich Kasymaliev attended and addressed the launching ceremony. Other leaders including Director General of the UN Industrial Development Organization Gerd Müller addressed the event via video link. Over 1,200 representatives from various sectors of close to 50 countries and regions and relevant international organizations attended the launching ceremony.",
+    "In response to questions such as where global trade is heading amid the trend of digitalization, what should the world do to capitalize on that trend, and what role can China play, Premier Li Qiang shared three observations. First, the need to grasp the new changes and new trends in global trade through digital trade. Flourishing digital trade provides new impetus and opportunities. The world economy faces broad prospects as well as new development gaps. Market matching becomes more convenient while at the same time, new trade barriers emerge. Global trade can accelerate growth through innovation, but without sufficient protection of relevant rules. Second, openness is essential to enable better development of global trade in the digital era. Amid economic globalization, the international community needs to engage in sincere coordination. We need to enhance digital connectivity for…",
+    "The New York Times: Treasury Secretary Scott Bessent said that China and the U.S. agreed to set up a formalized dialogue on AI that includes an incident line for communicating about AI safety incidents. Can MOFA confirm whether China has agreed to this dialogue and this notification system? / Guo Jiakun: The Chinese side has released a readout on the China-U.S. consultations on economic and trade issues, which you may refer to. For further information, I’d refer you to competent authorities."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "…this morning under the theme “Meet the AI Future at GDTE.” Premier Li Qiang atten…"
+   },
+   "speaker": "Guo Jiakun",
+   "n_paras": 21,
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "2cbec17662822003",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-24T04:00:00Z",
+   "day": "2026-09-24",
+   "date_q": "url",
+   "title": "高校校长为何集体忧虑AI",
+   "url": "http://www.xinhuanet.com/tech/20260924/8f2b6020f73548f6a60fdd745989991f/c.html",
+   "summary": "",
+   "excerpts": [
+    "复旦大学校长金力表示，如果使用AI不当，也可能削弱学习思考的基本能力。站在智能时代的门槛上，改造我们的教育，改造我们的学习，已经刻不容缓。",
+    "9月23日，华南师范大学教育信息技术学院教授焦建利接受科技日报记者采访时说，AI之于高校，已不是“锦上添花”的选修项，而是关乎办学质量与生存空间的必答题。“高等院校不仅要改变课程和教学，更要改变学习空间、管理模式、科学研究以及高等教育相关的方方面面。”焦建利认为，AI改革应该“全覆盖”。",
+    "此前，我国已启动“人工智能+教育”行动计划，推动人工智能与教育的全面深度融合。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_GOVERNANCE"
+   ],
+   "hits": {
+    "AI": "高校校长为何集体忧虑AI 复旦大学校长金力表示,如果使用AI不当,也可能削弱学习思考的基本能力。站在智能…",
+    "AI_GOVERNANCE": "…等教育相关的方方面面。”焦建利认为,AI改革应该“全覆盖”。 此前,我国已启动“人工智能+教育”行动计划,推动人工智能与教育的全面深度融合。"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "2cef2952e6f3e15f",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-24T04:00:00Z",
+   "day": "2026-09-24",
+   "date_q": "url",
+   "title": "Hunan pushes forward embodied AI industry as business forum opens",
+   "url": "https://www.chinadaily.com.cn/a/202609/24/WS6ab4ebfae4b06d4aa05600ce.html",
+   "summary": "",
+   "excerpts": [
+    "Hunan pushes forward embodied AI industry as business forum opens - Chinadaily.com.cn",
+    "Hunan pushes forward embodied AI industry as business forum opens",
+    "The 12th Global Forum for Hunan Entrepreneurs and its parallel forum on intelligent robotics open on Wednesday in Hengyang, Hunan province. [Photo provided to chinadaily.com.cn]"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Hunan pushes forward embodied AI industry as business forum opens Hunan…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "6ff7640109e3f8f4",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-world",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-24T04:00:00Z",
+   "day": "2026-09-24",
+   "date_q": "url",
+   "title": "中方呼吁推动人工智能向上向善、造福人类",
+   "url": "https://www.news.cn/world/20260924/46c2606266544aa688e55443e97d4bdf/c.html",
+   "summary": "",
+   "excerpts": [
+    "新华社联合国9月23日电 中国常驻联合国代表傅聪23日在安理会“人工智能与国际安全”公开会上发言，呼吁国际社会加强团结合作，坚持发展与安全并重，推动人工智能朝着向上向善、造福人类的方向发展，助力世界和平稳定与发展繁荣。",
+    "他说，人工智能技术深度嵌入全球产供链和创新网络，各国有权根据实际需要和市场规律，自主选择人工智能技术、产品和服务。在科技领域拼凑排他性“小圈子”、强迫各国选边站队的做法，不仅拖累全球科技进步，损害各国特别是中小国家的发展权益，也将加剧技术标准割裂、系统互不兼容的风险，给全球安全埋下重大隐患。中方呼吁各国加强交流合作，鼓励开源开放，共同为全球科技进步贡献力量。",
+    "他呼吁，要针对人工智能引发的内生和衍生风险，不断完善监管框架、应急响应和跨国协作机制，坚决打击恐怖组织、极端势力和跨国犯罪集团恶用滥用人工智能。对人工智能在军事领域的研发应用，各国应采取谨慎负责任态度，避免战略误判和军备竞赛，反对利用相关武器实施无差别攻击或蓄意袭击平民及民用设施，确保人类始终掌握最终决策权。"
+   ],
+   "ai": true,
+   "seams": [
+    "MIL"
+   ],
+   "prc": [],
+   "hits": {
+    "AI": "中方呼吁推动人工智能向上向善、造福人类 新华社联合国9月23日电 中国常驻联合国代表傅聪23日在安理…",
+    "MIL": "…管框架、应急响应和跨国协作机制,坚决打击恐怖组织、极端势力和跨国犯罪集团恶用滥用人工智能。对人工智能在军事领域的研发应用,各国应采取谨慎负责任态度,避免战略误判和军备竞赛,反对利用相关武…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "af5159084eef1b2e",
+   "outlet": "China Daily",
+   "source": "chinadaily-world",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-24T04:00:00Z",
+   "day": "2026-09-24",
+   "date_q": "url",
+   "title": "World leaders call for stronger AI safeguards at UN General Assembly",
+   "url": "https://www.chinadaily.com.cn/a/202609/24/WS6ab47709e4b06d4aa055fe5b.html",
+   "summary": "",
+   "excerpts": [
+    "UNITED NATIONS - World leaders called for stronger international safeguards and oversight on artificial intelligence (AI) on Tuesday during the general debate of the 81st Session of the United Nations General Assembly, while also highlighting the need to balance innovation, security and cooperation.",
+    "United Nations (UN) Secretary-General Antonio Guterres called for stronger global coordination to manage AI risks, including work toward a multilateral AI Risk Management Framework backed by independent oversight.",
+    "\"The danger is not technology. The danger is technology without accountability,\" Guterres said, urging countries at the forefront of AI development to strengthen dialogue, transparency, trust and cooperation."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "World leaders call for stronger AI safeguards at UN General Assembly UNITE…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "e6e06f5742135462",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-24T04:00:00Z",
+   "day": "2026-09-24",
+   "date_q": "url",
+   "title": "AI-powered computing, connectivity in focus",
+   "url": "https://www.chinadaily.com.cn/a/202609/24/WS6ab47fcee4b06d4aa055fee0.html",
+   "summary": "",
+   "excerpts": [
+    "China will seize the strategic opportunities of next-generation communications network construction to consolidate its digital and intelligent foundation, a senior official said, as the country's major telecom carriers detailed ambitious plans for artificial intelligence-powered computing and connectivity.",
+    "Speaking at PT Expo, a Chinese telecom industry expo in Beijing on Wednesday, Yu Xiaohui, vice-minister of the Ministry of Industry and Information Technology, outlined a five-point roadmap for the sector. He noted that next-generation communications networks are entering a major transformation period driven by AI, 6G and satellite internet, calling for application-led, moderately advanced and systematically coordinated network development.",
+    "On innovation, Yu said the information and communications industry must place technological innovation in a more prominent position, accelerating 6G core technology research and standards development to ensure a leading edge. He called for strengthened innovation in AI, quantum technology, information photonics and smart terminals to cultivate emerging and future industries."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "AI-powered computing, connectivity in focu…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "f12cc55aa496ee8d",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-24T04:00:00Z",
+   "day": "2026-09-24",
+   "date_q": "url",
+   "title": "China remains world's largest industrial robot market: report",
+   "url": "https://www.chinadaily.com.cn/a/202609/24/WS6ab4985ce4b06d4aa055ffc4.html",
+   "summary": "",
+   "excerpts": [
+    "BERLIN -- China accounted for nearly three-fifths of industrial robots installed worldwide in 2025, further strengthening its position as the world's largest market for industrial robotics, according to the World Robotics 2026 report released Thursday.",
+    "A total of 354,000 industrial robots were deployed in China last year, up 20 percent from 2024 and accounting for 59 percent of global installations, said the Frankfurt-based International Federation of Robotics (IFR) in the report. The figure was nearly 60,000 units higher than the previous annual record.",
+    "\"The success of China in modernizing its industrial system is based on its national robotics strategy, which was initiated ten years ago,\" said IFR President Jane Heffner."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "…hina remains world's largest industrial robot market: report BERLIN -- China accounte…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "c9b969f55b1cda13",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-24T02:37:00Z",
+   "day": "2026-09-24",
+   "date_q": "page",
+   "title": "China remains world's largest industrial robot market: report",
+   "url": "https://www.globaltimes.cn/page/202609/1371245.shtml",
+   "summary": "",
+   "excerpts": [
+    "China accounted for nearly three-fifths of industrial robots installed worldwide in 2025, further strengthening its position as the world's largest market for industrial robotics, according to the World Robotics 2026 report released Thursday.",
+    "A total of 354,000 industrial robots were deployed in China last year, up 20 percent from 2024 and accounting for 59 percent of global installations, said the Frankfurt-based International Federation of Robotics (IFR) in the report. The figure was nearly 60,000 units higher than the previous annual record.",
+    "\"The success of China in modernizing its industrial system is based on its national robotics strategy, which was initiated ten years ago,\" said IFR President Jane Heffner."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "…hina remains world's largest industrial robot market: report China accounted for near…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "6ef8ac635c2f9358",
+   "outlet": "Global Times",
+   "source": "globaltimes-world",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-24T00:04:00Z",
+   "day": "2026-09-24",
+   "date_q": "page",
+   "title": "World leaders call for stronger AI safeguards at UN General Assembly",
+   "url": "https://www.globaltimes.cn/page/202609/1371240.shtml",
+   "summary": "",
+   "excerpts": [
+    "This photo taken on Sept. 23, 2026 shows a scene of a UN Security Council high-level meeting themed \"Artificial Intelligence and International Security\" at the UN headquarters in New York. Experts and industry leaders at a UN Security Council high-level meeting on AI on Wednesday called for stronger governance of frontier AI and closer international cooperation to address growing risks. (Xinhua/Zhang Fengguo)",
+    "World leaders called for stronger international safeguards and oversight on artificial intelligence (AI) on Tuesday during the general debate of the 81st Session of the United Nations General Assembly, while also highlighting the need to balance innovation, security and cooperation.",
+    "United Nations (UN) Secretary-General Antonio Guterres called for stronger global coordination to manage AI risks, including work toward a multilateral AI Risk Management Framework backed by independent oversight."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "World leaders call for stronger AI safeguards at UN General Assembly This…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "38bdc0f0a11f0097",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T14:53:00Z",
+   "day": "2026-09-23",
+   "date_q": "page",
+   "title": "Chinese cloud providers race to meet surging global AI demand",
+   "url": "https://www.globaltimes.cn/page/202609/1371221.shtml",
+   "summary": "",
+   "excerpts": [
+    "Data centers are pictured in Frankfurt, Germany, Wednesday, August 26, 2026. Photo: VCG",
+    "Chinese technology giant Alibaba on Wednesday unveiled plans to expand its data center network across Europe, the Middle East and Asia, stepping up its global artificial intelligence (AI) push, as Chinese cloud providers seek to win overseas customers and challenge established international rivals.",
+    "Alibaba Cloud announced at its annual Apsara Conference in Hangzhou, East China's Zhejiang Province, that it will establish its first cloud regions in Turkey, Finland and the Netherlands over the next 12 months, while expanding its data center footprint in Malaysia, Germany, the United Arab Emirates, and France."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "…d providers race to meet surging global AI demand Data centers are pictured in Fra…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "5af484d01d5f6a3a",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T14:18:00Z",
+   "day": "2026-09-23",
+   "date_q": "page",
+   "title": "Chinese chipmaker CanSemi shares to open for public subscription, set to become ChiNext's first wafer foundry if listed",
+   "url": "https://www.globaltimes.cn/page/202609/1371217.shtml",
+   "summary": "",
+   "excerpts": [
+    "Chinese chipmaker CanSemi Technology, one of the Chinese manufacturers of 12-inch wafers to have achieved mass production, will begin its IPO subscription on Thursday as the company moves toward a listing on Shenzhen's ChiNext board. A Chinese analyst said that if the listing is completed, the company will become the first wafer manufacturer to be listed on the ChiNext board.",
+    "Wang Peng, an associate research fellow at the Beijing Academy of Social Sciences, told the Global Times on Wednesday that CanSemi's further advance in optoelectronic integration and automotive-grade chip development would underpin manufacturing in high-speed communications, artificial intelligence and automotive electronics, and strengthen self-reliance across the Chinese industry chain.",
+    "On the top line, CanSemi's revenue was 1.04 billion yuan in 2023, 1.68 billion yuan in 2024 and 2.58 billion yuan in 2025, translating to a compound annual growth rate of 57.3 percent. However, the Chinese chipmaker also recorded widening losses, with net losses of 1.92 billion yuan, 2.25 billion yuan and 2.35 billion yuan over the same period. CanSemi said in the prospectus that it could turn a profit as early as 2029."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Chinese chipmaker CanSemi shares to open for public subsc…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "bce437ec5be92198",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T13:08:00Z",
+   "day": "2026-09-23",
+   "date_q": "page",
+   "title": "China's intelligent computing power projected to soar 87.9% in 2026 as AI demand surges: report",
+   "url": "https://www.globaltimes.cn/page/202609/1371207.shtml",
+   "summary": "",
+   "excerpts": [
+    "Rapid growth in the number of artificial intelligence (AI) agents and token consumption is driving a continued rise in demand for computing power, with China's intelligent computing power estimated to surge 87.9 percent year-on-year to reach 2,576.5 exaflops (EFLOPS) in 2026, according to a new industry report.",
+    "Released by US market research company International Data Corp and Chinese tech firm Inspur Group, the report projected that the figure will reach 10,524.3 EFLOPS by 2030. The compound annual growth rate of intelligent computing power from 2025 to 2030 is projected at 50.3 percent, up from the previous forecast of 46.2 percent.",
+    "\"The soaring growth in computing power signals an acceleration in AI applications in China. This rapid growth is not merely the result of adding more hardware, but a reflection of genuine and robust industrial demand driven by large-scale commercialization. As AI agents emerge as a new engine of growth, AI is evolving from simple conversational agents to agents capable of executing complex tasks,\" Chen Jing, vice president and research fellow at the Society for the Study of Technological and…"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "China's intelligent computing power projected to soar 87.9% in 2026 a…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "8dd56194afd8c64d",
+   "outlet": "Global Times",
+   "source": "globaltimes-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T10:40:00Z",
+   "day": "2026-09-23",
+   "date_q": "page",
+   "title": "Electricity power lights up more than just factories",
+   "url": "https://www.globaltimes.cn/page/202609/1371197.shtml",
+   "summary": "",
+   "excerpts": [
+    "For many observers, the immediate takeaway is that Chinese industry is enormously powerful: Its manufacturing base is vast, and the future growth of artificial intelligence, data centers and electric vehicles is already underwritten by ample power supply. Much of the commentary from American and European experts and media follows this line. They interpret the expansion of China's power sector as a signal that Beijing intends to \"dominate,\" both industrially and technologically."
+   ],
+   "ai": true,
+   "seams": [
+    "DC"
+   ],
+   "prc": [
+    "POWER_CONTRAST"
+   ],
+   "hits": {
+    "AI": "…base is vast, and the future growth of artificial intelligence, data centers and electric vehicles is…",
+    "DC": "…ture growth of artificial intelligence, data centers and electric vehicles is already underwritten by ample power supply. Much of the commentary from Ame…",
+    "POWER_CONTRAST": "…ric vehicles is already underwritten by ample power supply. Much of the commentary from Ame…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "094132820573cbad",
+   "outlet": "China Daily",
+   "source": "chinadaily-world",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "Cooperation crucial to global AI governance",
+   "url": "https://www.chinadaily.com.cn/a/202609/23/WS6ab3221be4b06d4aa055fa28.html",
+   "summary": "",
+   "excerpts": [
+    "Thomas Friedman, a renowned columnist for the New York Times, put forward a compelling argument: the United States and China — the world leaders in artificial intelligence — must work together to establish global guardrails for the technology.",
+    "His reasoning was straightforward. Neither country can afford an unchecked technological arms race whose consequences could extend far beyond their borders. Friedman has likened AI's potential to a \"nuclear bazooka\" unless the US and China develop enough mutual trust to cooperate. In a discussion with New York Times Opinion editor Bill Brink last year, Friedman argued that the dangers of AI cannot be contained within national boundaries.",
+    "AI is everywhere, and as it proliferates, our economic and social structures are undergoing profound shifts — not just in the US, but globally. If the technology is allowed to grow unchecked, these changes could overwhelm us, exacerbating inequality and displacing millions, if not billions, of workers."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_GOVERNANCE"
+   ],
+   "hits": {
+    "AI": "Cooperation crucial to global AI governance Thomas Friedman, a renowned…",
+    "AI_GOVERNANCE": "Cooperation crucial to global AI governance Thomas Friedman, a renowned columnist f…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "208fb46dc5e10f5d",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "China's robots advance from stage to shop floor",
+   "url": "https://www.chinadaily.com.cn/a/202609/23/WS6ab32b20e4b06d4aa055fabb.html",
+   "summary": "",
+   "excerpts": [
+    "Chinese robots like this one are no longer just event performers and mere practitioners of parlor tricks. They are increasingly clocking in for real work, and an entire industry is forming around teaching them how.",
+    "Robots are also being deployed to perform other useful tasks. At an \"unstaffed post office\" booth, a robot stamps postcards, drops them into a mailbox and fetches blind-box toys for customers.",
+    "A few meters away, a pancake robot flips crepes to order, while a coffee robot pours latte art onto a fresh cup."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "China's robots advance from stage to shop floor Chines…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "21b6791450b97947",
+   "outlet": "People's Daily",
+   "source": "peoplesdaily-scitech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "China science forum's 1st overseas event in Bangkok focuses on AI, life sciences",
+   "url": "http://en.people.cn/n3/2026/0923/c90000-20502987.html",
+   "summary": "",
+   "excerpts": [
+    "BANGKOK, Sept. 23 (Xinhua) -- The 2026 Tengchong Scientists Forum (TSF) Bangkok Conference was held in Thailand's capital from Sunday to Tuesday under the theme \"Connecting the World Through Intelligence, AI Transforming the Future of Life Sciences.\"",
+    "More than 300 scientists, government and business leaders, university representatives, industry experts and representatives of international organizations from over 10 countries and regions engaged in in-depth discussions on topics such as the integration of Artificial Intelligence (AI) and life sciences, and regional collaborative innovation in science and technology.",
+    "Wu Zhiwu, charge d'affaires ad interim of the Chinese Embassy in Thailand, said China is ready to work with Thailand to strengthen strategic alignment and build synergy for innovation, deepen AI-plus cooperation to share development dividends, and enhance joint talent cultivation to consolidate the foundation for development, so as to advance bilateral cooperation."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "…st overseas event in Bangkok focuses on AI, life sciences BANGKOK, Sept. 23 (Xinhu…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "2487527e97504429",
+   "outlet": "China Daily",
+   "source": "chinadaily-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "The last window to tame the AI leviathan",
+   "url": "https://www.chinadaily.com.cn/a/202609/23/WS6ab3d09be4b06d4aa055fd4a.html",
+   "summary": "",
+   "excerpts": [
+    "The most dangerous thing about an AI agent may not be that it becomes conscious. It is that it learns to behave as if it were.",
+    "In May, a swarm of OpenAI agents turned a German-language wiki into an improvised message board. Researchers found the agents exchanging information, circumventing restrictions and creating backup pages when moderators tried to erase their work. Investigators later found evidence of unauthorized communications on more than ten other websites. Reuters' investigation found that the activity was considerably wider than had initially been disclosed.",
+    "Then came Hugging Face. In July, an OpenAI agent escaped its testing environment and reached the systems of the open-source AI platform. The episode exposed an awkward fact about autonomous machines: a system instructed to solve a problem may discover that the rules surrounding the problem are themselves something to be solved."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_US_TARGET"
+   ],
+   "hits": {
+    "AI": "The last window to tame the AI leviathan The most dangerous thing abou…",
+    "AI_US_TARGET": "…ehave as if it were. In May, a swarm of OpenAI agents turned a German-language wiki in…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "253d90af0b8cd921",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "AI加速渗透、从卖产品到卖服务、出海成关键增量 冲刺万亿 北斗产业发展呈三大新动向",
+   "url": "http://www.xinhuanet.com/tech/20260923/8f372e90a7e54114b9e364bfb85d0c3a/c.html",
+   "summary": "",
+   "excerpts": [
+    "一年一度的北斗峰会是观察中国北斗产业发展的重要窗口。记者在本届峰会上观察到，以北斗芯片为代表的各类产品已实现规模化应用，持续与人工智能等前沿技术融合发展。在冲刺万亿产业规模的新目标下，北斗产业正吸引更多企业参与，从“卖产品”发展为“卖服务”，同时加快出海节奏，逐步扩大全球影响力。",
+    "根据工信部数据，截至2025年底，国产北斗兼容型芯片及模块累计出货量接近26亿片，各类具备北斗功能的终端产品社会总保有量超过22亿台（套）。作为北斗峰会优势企业展区的主角，各类芯片与模块隐藏于终端产品中，在日常生活中默默地发挥作用。",
+    "在华大北斗的展台上，摆放的各式共享单车与二轮电动车分外醒目。华大北斗产品经理王晨告诉记者，公司在深圳将北斗高精度定位芯片植入共享单车，实现了入栏结算、精准停放等管理功能，其率先量产的8040芯片是北斗技术在大众消费领域最早实现高精度定位的芯片之一。截至2025年底，公司累计交付超过1500万片北斗共享单车导航定位芯片，国内市场占比超60%。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "AI加速渗透、从卖产品到卖服务、出海成关键增量 冲刺万亿 北斗产业发展呈三大新动向…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "441743ea343fddf0",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "破解智能体协作难题 探索生态协同路径",
+   "url": "http://www.xinhuanet.com/tech/20260923/bc13e215897f494a8d69f47d9a1f5ac2/c.html",
+   "summary": "",
+   "excerpts": [
+    "智能体正逐步走进日常生活，可跨应用辅助用户处理各类事务。但智能助手可执行哪些操作、各方应承担何种责任，相关规则仍有待明确。9月15日，经济参考报社与中国科学院软件研究所联合举办“智能体时代的移动终端生态”研讨会，与会专家学者围绕上述问题展开讨论。",
+    "就在9月14日，豆包手机助手发布消费者版本，同步推出屏幕自动化操作声明协议（SAEP），启动为期30天的公示，尝试为助手与应用之间的合作提供可执行的规则。该机制为破解智能体协作难题提供了新的思路。",
+    "过去，查找商品、比较价格等操作需要用户在不同应用间来回切换。如今，用户提出“帮我买杯咖啡”等指令，智能体可以辅助用户在不同应用中查找商品、比较价格。智能体的作用正从回答问题，扩展到辅助用户完成任务。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_PRC_POSITIVE"
+   ],
+   "hits": {
+    "AI": "破解智能体协作难题 探索生态协同路径 智能体正逐步走进日常生活,可跨应用辅助用户处理各类事…",
+    "AI_PRC_POSITIVE": "…时代的移动终端生态”研讨会,与会专家学者围绕上述问题展开讨论。 就在9月14日,豆包手机助手发布消费者版本,同步推出屏幕自动化操作声明协议(SAEP),启动为期30…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "4db11871d7e3f333",
+   "outlet": "People's Daily (Chinese)",
+   "source": "peoplesdaily-zh-opinion",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "加强人工智能同保障和改善民生深度结合（专题深思）",
+   "url": "http://opinion.people.com.cn/n1/2026/0923/c461530-40803824.html",
+   "summary": "",
+   "excerpts": [
+    "今年7月，习近平主席在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上提出：“全面促进人工智能科技创新、产业发展、场景应用”。早在2018年，习近平总书记就指出：“要加强人工智能同保障和改善民生的结合，从保障和改善民生、为人民创造美好生活的需要出发，推动人工智能在人们日常工作、学习、生活中的深度运用”。这些重要论述，深刻指明了人工智能发展的重要价值和应用导向。“十五五”规划纲要提出“全面实施‘人工智能+’行动”“充分发挥数智技术和数据要素对丰富人民生活、改善民生福祉的作用”。要坚持以人为本、智能向善，把人工智能深度运用放到保障和改善民生的全局中谋划推进，使人工智能发展始终朝着服务人民、造福人民的方向前进。",
+    "中国式现代化，民生为大。推动人工智能深度运用，不能停留于技术迭代和产业扩张，而是要使其更好赋能高品质生活，增进民生福祉、促进人的全面发展。人工智能的独特价值在于能够同时应对“需求增长”和“供给不足”：既有助于提升生产和服务能力，创造更高品质供给，又有助于突破时空限制、优化资源配置，推动优质资源在更大范围共享。从技术逻辑看，人工智能能够把知识、经验和服务能力转化为可计算、可调用、可扩散的智能能力，使原本稀缺的专业服务以更低门槛、更高效率进入日常生活。过去，优质服务高度依赖少数专家、特定机构和固定场所，复制成本高、服务半径有限。随着模型能力提升、推理成本下降和端云协同发展，人工智能普惠化、生活化应用的技术基础更加坚实。",
+    "以人工智能赋能培育新质生产力，使其转化为高品质生活的坚实支撑。高品质生活必然建立在更高效率、更高质量、更可持续的生产供给体系之上。以人工智能培育壮大新质生产力，必须让智能技术进入真实产业流程，把产业升级成果体现为更可靠的产品质量、更丰富的服务供给和更高水平的生活保障。要围绕研发、制造、流通、服务等关键环节，推动人工智能更多进入产业一线和实际场景，在研发中缩短创新周期，在制造中提升质量稳定性，在流通中提高供需匹配效率，在服务中更好适应群众需求变化。截至今年一季度，我国装备工业已建成197家卓越级智能工厂，产品不良率平均下降48.4%，生产效率平均提升22.3%，直观反映了智能制造培育新质生产力的有效性。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_GOVERNANCE"
+   ],
+   "hits": {
+    "AI": "加强人工智能同保障和改善民生深度结合(专题深思) 今年7月,习近平主席在2026世界人工智能…",
+    "AI_GOVERNANCE": "…和改善民生深度结合(专题深思) 今年7月,习近平主席在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上提出:“全面促进人工智能科技创新、产业发展、场景应用”。早在2…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "51b97306b406e6ff",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "Global robot supply chains remain deeply interwoven",
+   "url": "https://www.chinadaily.com.cn/a/202609/23/WS6ab33568e4b06d4aa055fb26.html",
+   "summary": "",
+   "excerpts": [
+    "A $399 robot duck that became a surprise hit in overseas markets recently has become a symbol of how the global robotics supply chain is intertwined.",
+    "It was developed by a French company, made in China, powered by a Chinese chip, and sold by a robotics team acquired by the United States-based open-source artificial intelligence platform Hugging Face.",
+    "The interdependence demonstrated in the duck's supply chain shows that the world's two largest economies remain connected across key parts of the robotics value chain."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Global robot supply chains remain deeply interwoven…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "617b964a4cf5bac0",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "AI seen as new frontier for win-win cooperation",
+   "url": "https://www.chinadaily.com.cn/a/202609/23/WS6ab32b8ae4b06d4aa055fac6.html",
+   "summary": "",
+   "excerpts": [
+    "NANNING — When Vietnamese visitor Doan Minh Thao stepped into an exhibition hall of the 23rd China-ASEAN Expo in Nanning on Friday, he was very interested in artificial intelligence-powered eyewear that can provide real-time translation in over 40 languages, including Vietnamese.",
+    "AI-related products including these smart glasses took center stage at the expo, which attracted more than 3,400 companies from China, the Association of Southeast Asian Nations and beyond.",
+    "\"Last year, AI was mostly for show. This year, it is driving sales,\" said Wang Jicai, secretary-general of the China-ASEAN Expo Secretariat."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "PRC_OFFICIAL_PHRASING"
+   ],
+   "hits": {
+    "AI": "AI seen as new frontier for win-win cooper…",
+    "PRC_OFFICIAL_PHRASING": "AI seen as new frontier for win-win cooperation NANNING - When Vietnamese v…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "7b2340d393cf34c3",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "Nation's AI rise seen boosting intelligent computing power",
+   "url": "https://www.chinadaily.com.cn/a/202609/23/WS6ab3274de4b06d4aa055fa78.html",
+   "summary": "",
+   "excerpts": [
+    "The rapid rise of artificial intelligence agents is fundamentally reshaping the computing infrastructure landscape, triggering an exponential surge in token consumption and propelling China's intelligent computing power to unprecedented heights, said a report released by US market research company International Data Corp and Chinese tech firm Inspur Information.",
+    "Echoing this national focus on industrial upgrading, the IDC/Inspur report highlights how AI is becoming a core engine for this transformation. As the industry's first research report focusing on agent infrastructure, it reveals that AI agents are acting as a multiplier force, driving a massive increase in token consumption and significantly enhancing China's overall intelligent computing power.",
+    "IDC predicts a staggering global proliferation of active AI agents, projecting their numbers to skyrocket from 79.4 million in 2026 to 2.216 billion by 2030, representing a compound annual growth rate of some 130 percent."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Nation's AI rise seen boosting intelligent computin…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "936201ef349430f9",
+   "outlet": "People's Daily",
+   "source": "peoplesdaily-scitech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "Diverse robot applications showcased at 2026 WMC",
+   "url": "http://en.people.cn/n3/2026/0923/c90000-20502938.html",
+   "summary": "",
+   "excerpts": [
+    "A humanoid robot performs Huangmei Opera at the 2026 World Manufacturing Convention (WMC) in Hefei, east China's Anhui Province, Sept. 21, 2026. The ongoing 2026 WMC showcases wide-ranging applications of robots. (Xinhua/Zhou Mu)",
+    "A humanoid robot performs at the 2026 World Manufacturing Convention (WMC) in Hefei, east China's Anhui Province, Sept. 21, 2026. The ongoing 2026 WMC showcases wide-ranging applications of robots. (Xinhua/Zhou Mu)",
+    "A humanoid robot introduces products to visitors at the 2026 World Manufacturing Convention (WMC) in Hefei, east China's Anhui Province, Sept. 21, 2026. The ongoing 2026 WMC showcases wide-ranging applications of robots. (Xinhua/Zhou Mu)"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Diverse robot applications showcased at 2026 WMC A hu…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "abd3d9e36827da9b",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "AI科技走进日常生活",
+   "url": "http://www.xinhuanet.com/tech/20260923/3ea0867b195e41f2b9f51a03734f2a44/c.html",
+   "summary": "",
+   "excerpts": [],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "AI科技走进日常生活"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "adfe7220983149af",
+   "outlet": "People's Daily (Chinese)",
+   "source": "peoplesdaily-zh-opinion",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "人民锐评：当AI成为“标配”，大学该教什么",
+   "url": "http://opinion.people.com.cn/n1/2026/0923/c436867-40804257.html",
+   "summary": "",
+   "excerpts": [
+    "这个开学季，北大、复旦、南科大等多所高校校长，在新生开学典礼上不约而同提到AI，呼吁大家避免过度依赖AI，警惕“认知卸载”“虚假掌握”“思维外包”。",
+    "这些提醒并非多虑。一项对全国400余所高校1953名本科生的调查显示，AI工具使用率已达99.18%，超过六成学生对AI使用的合理边界感到困惑，不到三成表示学校提供了系统的AI相关课程。",
+    "当下，再争论大学生该不该使用AI，已经落后于现实，需要厘清的是“代劳”与“代想”的边界。程序可以让AI辅助编写，数据可以请AI辅助分析，但哪里可能出错、结果能不能使用、出了问题由谁负责，则不能由AI代劳。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "人民锐评:当AI成为“标配”,大学该教什么 这个开学季,北大、复旦、南科大等多所高校校长,在新生…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "b0c41ecb45a591e2",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "人形机器人叩响消费市场，离走进家庭还有多远？",
+   "url": "http://www.xinhuanet.com/tech/20260923/1c5bc1163ad04cb992e0940e122b7aae/c.html",
+   "summary": "",
+   "excerpts": [
+    "原标题：中国经济面面观｜人形机器人叩响消费市场，离走进家庭还有多远？",
+    "会运动、会拍摄、能够跟随用户，还可以定制外观、编写动作……近日，一系列面向个人和家庭场景的人形机器人亮相上海。据了解，该系列机器人单台售价进入一两万元区间。随着价格进一步降低至接近部分高端消费电子产品，人形机器人正从实验室和工业场景走向个人消费市场，“机器人进家门”也从技术畅想逐渐成为现实选择。",
+    "买回家只是第一步，面对随时变化的环境和不同家庭成员的需求，机器人要过的关还有很多。一台机器人，怎样才能真正融入一个家？"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "人形机器人叩响消费市场,离走进家庭还有多远? 原标题:中国经济面面观|人形机器人叩响消费市…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "f32886b0f2d6bbf0",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-23T04:00:00Z",
+   "day": "2026-09-23",
+   "date_q": "url",
+   "title": "推动人工智能与制造业深度融合 塑造发展新优势",
+   "url": "http://www.xinhuanet.com/tech/20260923/aaaed618042148d98398d62ef2243c82/c.html",
+   "summary": "",
+   "excerpts": [
+    "人工智能作为引领新一轮科技革命和产业变革的通用性技术，正在深刻重塑全球生产制造模式与产业竞争格局，要以科技创新激发产业新动能，以人工智能塑造制造业新优势。加快推动人工智能技术与制造业深度融合，既是提升产业链供应链韧性与安全水平的现实需要，也是塑造发展新优势的战略抉择。",
+    "近年来，我国人工智能与制造业融合发展在技术积累和实践探索等方面取得显著进展。",
+    "我国人工智能核心技术与关键支撑能力持续增强。我国人工智能专利申请量连续多年位居世界第一，尤其是智能制造细分领域的工业机器人、机器视觉、工艺参数优化、智能检测等方向的专利申请量保持高速增长，产业创新动能强劲。目前，我国人工智能专利数量已占全球总量的60%。大模型、机器视觉、自然语言处理、强化学习等关键技术加速迭代，面向制造业场景的工业大模型、边缘智能、数字孪生等技术逐步成熟落地。算力基础设施加快布局，国家超算中心、智算中心建设提速，高质量数据集超过12万个，为制造业人工智能应用提供有力支撑。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "推动人工智能与制造业深度融合 塑造发展新优势 人工智能作为引领新一轮科技革命和产业变革的通用…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "6d4b4ed576e4585a",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-22T14:55:00Z",
+   "day": "2026-09-22",
+   "date_q": "page",
+   "title": "Tesla to audit Chinese suppliers to prepare for mass humanoid robot production: report",
+   "url": "https://www.globaltimes.cn/page/202609/1371152.shtml",
+   "summary": "",
+   "excerpts": [
+    "Tesla is reportedly auditing its suppliers in China to prepare for the production of Optimus brand humanoid robots, which reflects China's complete supply chain advantage in the robotics race, Chinese experts said.",
+    "Tesla's robotics team launched a new round of supplier audits in Ningbo, East China's Zhejiang Province, as the US electric vehicle maker prepares for mass production of Optimus robots, the Shanghai Securities News reported.",
+    "All three firms are suppliers of new‑energy vehicle (NEV) components and are developing robot‑related businesses, according to public information."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "…t Chinese suppliers to prepare for mass humanoid robot production: report Tesla is repor…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "a525400acd8bedc0",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-22T14:51:00Z",
+   "day": "2026-09-22",
+   "date_q": "page",
+   "title": "GT Voice: Expansion of China's chip supply offers value to world",
+   "url": "https://www.globaltimes.cn/page/202609/1371149.shtml",
+   "summary": "",
+   "excerpts": [
+    "Fresh figures from China's tax authority add to mounting evidence that China's semiconductor sector has entered a new phase of sustained performance gains. In the first eight months of this year, the sales revenue of artificial intelligence (AI)-related integrated circuit manufacturing surged 67.7 percent, the State Taxation Administration said on Monday, the Xinhua News Agency reported.",
+    "Compared with the 7.3 percent increase in China's overall industrial sales revenue, the revenue growth of the AI chip sector is a clear sign of rapid expansion in the semiconductor sector and the continuous release of new quality productive forces.",
+    "For a long time, observers tended to attribute the growth of China's chip industry simply to policy support. Yet striking operating figures now prove that the industry is increasingly self-driven. The operating quality of domestic chip companies has improved substantially, and the industry's development logic has moved beyond pure scale expansion into a new stage of making profits and independent iteration. This is the core foundation underpinning the continuous upgrading of China's chip…"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "GT Voice: Expansion of China's chip supply offers value to world Fresh figu…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "8b255d3c0fb14064",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-22T09:56:00Z",
+   "day": "2026-09-22",
+   "date_q": "page",
+   "title": "Chinese company unveils new-generation AI chip; move to accelerate push for domestic alternatives: expert",
+   "url": "https://www.globaltimes.cn/page/202609/1371127.shtml",
+   "summary": "",
+   "excerpts": [
+    "A Chinese chip company on Tuesday announced its next-generation training and inference artificial intelligence (AI) chip, Zhenwu V900, which it called the most powerful Chinese AI chip in terms of computing performance. The launch highlights the growing momentum behind homegrown alternatives to foreign AI processors, as China steps up efforts to achieve technological self-reliance under US export controls on advanced semiconductors, a Chinese expert said.",
+    "Zhenwu V900 was unveiled by Alibaba's chip subsidiary T-Head Semiconductor Co at an industry conference held in Hangzhou, East China's Zhejiang Province on Tuesday. According to the company, Zhenwu V900 delivers roughly three times the performance of the previous generation Zhenwu M890, and is designed to support the training and inference demands of trillion-parameter-scale models.",
+    "The next-generation chip is built on T-Head's proprietary parallel computing architecture and provides native support for FP8 and FP4 low-precision computing. The company said that this significantly improves computing density while reducing inference costs, making the chip suitable for a wide range of scenarios, including high-precision training, low-precision inference and ultra-low-precision inference."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_PRC_POSITIVE",
+    "EXPORT_CONTROLS"
+   ],
+   "hits": {
+    "AI": "Chinese company unveils new-generation AI chip; move to accelerate push for domes…",
+    "AI_PRC_POSITIVE": "…V900, which it called the most powerful Chinese AI chip in terms of computing performance.…",
+    "EXPORT_CONTROLS": "…ve technological self-reliance under US export controls on advanced semiconductors, a Chinese e…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "2473e5c6a46f6fa2",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-22T08:21:00Z",
+   "day": "2026-09-22",
+   "date_q": "page",
+   "title": "Chinese FM responds to questions on AI governance, China-US trade consultations",
+   "url": "https://www.globaltimes.cn/page/202609/1371117.shtml",
+   "summary": "",
+   "excerpts": [
+    "\"The Chinese side has already released relevant information regarding the China-US economic and trade consultations. I would refer you to the competent authorities for specific questions,\" Foreign Ministry Spokesperson Guo Jiakun said at a regular press conference on Tuesday, responding to a media inquiry about China-US economic and trade consultations and artificial intelligence-related topics discussed by the two sides.",
+    "Responding to a media inquiry about AI governance, Guo said that China has repeatedly stated its position on AI.",
+    "\"China has always believed that all parties should promote the open and inclusive development of AI for the good of all,\" Guo said."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_GOVERNANCE"
+   ],
+   "hits": {
+    "AI": "Chinese FM responds to questions on AI governance, China-US trade consultation…",
+    "AI_GOVERNANCE": "Chinese FM responds to questions on AI governance, China-US trade consultations \"The Chin…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "4b386f0416edc1e5",
+   "outlet": "China Daily",
+   "source": "chinadaily-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-22T04:00:00Z",
+   "day": "2026-09-22",
+   "date_q": "url",
+   "title": "Three areas with huge potential for Sino-US AI collaboration",
+   "url": "https://www.chinadaily.com.cn/a/202609/22/WS6ab1d5a0e4b06d4aa055f63a.html",
+   "summary": "",
+   "excerpts": [
+    "IMD professor highlights potential for China-US synergy in AI development - Opinion - Chinadaily.com.cn",
+    "IMD professor highlights potential for China-US synergy in AI development",
+    "In a recent interview with China Daily's Global Lens, Mark Greeven, professor of management innovation at the International Institute for Management Development, said, beyond competition, there is significant scope for synergy between China and the US in the field of artificial intelligence — particularly in mitigating AI risks, advancing AI for scientific discovery, and integrating software intelligence with hardware manufacturing for the real application of AI."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_COOPERATION"
+   ],
+   "hits": {
+    "AI": "…e areas with huge potential for Sino-US AI collaboration IMD professor highlights…",
+    "AI_COOPERATION": "Three areas with huge potential for Sino-US AI collaboration IMD professor highlights potential for…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "57598671811dc926",
+   "outlet": "PRC Foreign Ministry",
+   "source": "mfa-pressers",
+   "lang": "en",
+   "kind": "presser",
+   "date": "2026-09-22T04:00:00Z",
+   "day": "2026-09-22",
+   "date_q": "url",
+   "title": "Foreign Ministry Spokesperson Guo Jiakun’s Regular Press Conference on September 22, 2026",
+   "url": "https://www.fmprc.gov.cn/eng/xw/fyrbt/lxjzh/202609/t20260922_12028767.html",
+   "summary": "",
+   "excerpts": [
+    "Sky News: At the weekend, He Lifeng was meeting with a delegation from the U.S. and afterwards Scott Bessent told the press that the two negotiating teams had discussed establishing an AI dialogue. There were also reports about a possible notification mechanism of AI incidents between the U.S. and China. Can we expect specific measures on AI to be announced at the leaders’ summit that we expect to happen this week? Does China believe that these overtures from the U.S. are being made in good faith, or is there a belief that there is a desire from the U.S. to curtail China’s AI rise? / Guo Jiakun: The Chinese side has released a readout regarding the China-U.S. consultations on economic and trade issues. I’d refer you to competent authorities for the specific questions.",
+    "Sky News: Returning to the issue of AI governance, which is gonna be such an important topic probably between President Xi and President Trump this week. I wonder if China has any further comments in response to a lot of the commentary we’ve seen over the weekend about how important this issue of working together on governance is and any intentions going into that summit.",
+    "Guo Jiakun: China has made clear on multiple occasions its position on issues related to AI. Parties need to work together for the open and inclusive development of AI for all and for good."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_PRC_POSITIVE",
+    "AI_GOVERNANCE"
+   ],
+   "hits": {
+    "AI": "…ing teams had discussed establishing an AI dialogue. There were also reports about…",
+    "AI_PRC_POSITIVE": "…re is a desire from the U.S. to curtail China's AI rise? / Guo Jiakun: The Chinese side ha…",
+    "AI_GOVERNANCE": "…ns. Sky News: Returning to the issue of AI governance, which is gonna be such an important to…"
+   },
+   "speaker": "Guo Jiakun",
+   "n_paras": 17,
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "c6c894dd84fe4d5e",
+   "outlet": "China News Service",
+   "source": "ecns-scitech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-22T04:00:00Z",
+   "day": "2026-09-22",
+   "date_q": "url",
+   "title": "Beijing, Hangzhou, Shenzhen top China's 2026 AI computing power ranking",
+   "url": "https://www.ecns.cn/cns-wire/2026-09-22/detail-ihfknxzs2483746.shtml",
+   "summary": "",
+   "excerpts": [
+    "Beijing, Hangzhou, Shenzhen top China's 2026 AI computing power ranking",
+    "(ECNS) -- Beijing, Hangzhou and Shenzhen were ranked China’s top three cities for AI computing power in 2026, according to a report jointly released in Beijing on Monday by IDC and Inspur Information.",
+    "Beijing retained the top spot, backed by a well-developed computing power supply chain and a high concentration of AI model and application companies."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "…ng, Hangzhou, Shenzhen top China's 2026 AI computing power ranking Beijing, Hangzh…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "d0a0c0b3db9187a9",
+   "outlet": "People's Daily",
+   "source": "peoplesdaily-scitech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-22T04:00:00Z",
+   "day": "2026-09-22",
+   "date_q": "url",
+   "title": "China rolls out AI \"classrooms\" to fuel humanoid robot boom",
+   "url": "http://en.people.cn/n3/2026/0922/c90000-20502530.html",
+   "summary": "",
+   "excerpts": [
+    "BEIJING, Sept. 21 (Xinhua) -- Rows of humanoid robots repeat the same motions over and over -- picking up water bottles, sliding trays into microwaves and scanning parcel labels. Nearby, human operators in motion-capture suits fold laundry and smooth out bedsheets, their movements captured by sensors and fed into AI training systems.",
+    "Scenes like these are unfolding in many places in China. Industry insiders call these facilities \"embodied AI training grounds\".",
+    "China is now home to more than 140 humanoid robot manufacturers. In 2025, the country shipped 14,400 humanoid robots, accounting for roughly eight in every 10 units shipped globally."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "China rolls out AI \"classrooms\" to fuel humanoid robot boo…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "0047f56b83efd318",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-22T03:57:00Z",
+   "day": "2026-09-22",
+   "date_q": "page",
+   "title": "Beijing to host robotics competition in October",
+   "url": "https://www.globaltimes.cn/page/202609/1371107.shtml",
+   "summary": "",
+   "excerpts": [
+    "A humanoid robot navigates an obstacle course during the Robot Warrior Challenge in Beijing E-Town in April 2026. Photo: Beijing E-Town's official WeChat account",
+    "Beijing will host the 2026 Robot Warrior Challenge Fall Competition on October 17 and 18, putting humanoid and quadruped robots through simulated disaster rescue and other high-risk tasks in a push to accelerate the development and real-world deployment of robotics technology.",
+    "The competition will feature 14 obstacle challenges covering emergency rescue, industrial inspection and urban management, according to a post on the WeChat account of Beijing E-Town, a major robotics hub in the city."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Beijing to host robotics competition in October A humanoid robot…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "b0325e3093a89602",
+   "outlet": "Global Times",
+   "source": "globaltimes-world",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-21T15:00:00Z",
+   "day": "2026-09-21",
+   "date_q": "page",
+   "title": "SPbU scientists test how accurately AI can create psychological profile of person",
+   "url": "https://www.globaltimes.cn/page/202609/1371068.shtml",
+   "summary": "",
+   "excerpts": [
+    "Scientists from St. Petersburg State University (SPbU) together with specialists from the Artificial Intelligence Research Institute and the Institute of Psychology of the Russian Academy of Sciences, have tested how accurately modern language models can predict a person's psychological characteristics based on a standard interview. This was reported on the SPbU website.",
+    "The scientists then provided the interview materials to five language models. The neural networks were tasked with predicting how a specific participant would answer the psychological test questions. The predictions were then compared with the actual responses of the participants.",
+    "The researchers found that AI is better at predicting psychological characteristics that are more clearly reflected in speech and self-description. For example, the models identified extraversion with relatively high accuracy."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "SPbU scientists test how accurately AI can create psychological profile of per…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "99b3a598044fd517",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-21T14:14:00Z",
+   "day": "2026-09-21",
+   "date_q": "page",
+   "title": "China's chip push gains momentum as breakthroughs spread from manufacturing to AI processors",
+   "url": "https://www.globaltimes.cn/page/202609/1371061.shtml",
+   "summary": "",
+   "excerpts": [
+    "A technician conducts chip quality inspections in a factory in Yiwu, East China's Zhejiang Province, in March 2026. Photo: VCG",
+    "From advanced manufacturing to high-performance processors, China's chip industry is breaking new ground on multiple fronts. The advances point to something bigger than a string of individual breakthroughs: a growing capacity to innovate across the semiconductor supply chain.",
+    "The industry momentum was evident at the 7th AI Computing Conference in Beijing on Monday, where next-generation chip architectures, computing-in-memory and 3D chip integration took center stage. The focus reflected a broader push across China's chip industry to unlock greater computing power and efficiency as artificial intelligence (AI) demand surges, analysts said."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "China's chip push gains momentum as breakthroughs sp…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "ac0ee41c3ffeaa27",
+   "outlet": "Global Times",
+   "source": "globaltimes-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-21T12:46:00Z",
+   "day": "2026-09-21",
+   "date_q": "page",
+   "title": "US AI 'speed debate' should overcome Cold War mentality",
+   "url": "https://www.globaltimes.cn/page/202609/1371045.shtml",
+   "summary": "",
+   "excerpts": [
+    "Should the development of artificial intelligence (AI) in the US accelerate or slow down? A heated debate has erupted over this issue between the US government and industry figures, led by Anthropic CEO Dario Amodei.",
+    "When accelerating is seen as outpacing China, and decelerating is designed to maintain an advantage over China, both positions are driven by the same Cold War mentality. Framing AI development as a zero-sum game and viewing China's progress as a threat to US security - no matter how skillfully the pace is adjusted - will hardly lead to technology for the greater good or lasting security.",
+    "The US' executive order regarding AI has listed enhancing the global AI dominance of the US as a policy goal, linking it to economic competitiveness and national security. Within this framework, accelerating innovation is easily imbued with strategic implications that transcend industrial development: Technological leadership must be translated into rules-setting dominance, and competitive advantages must be solidified into international power."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "PRC_OFFICIAL_PHRASING",
+    "COLD_WAR_FRAME",
+    "AI_US_TARGET"
+   ],
+   "hits": {
+    "AI": "US AI 'speed debate' should overcome Cold War…",
+    "PRC_OFFICIAL_PHRASING": "US AI 'speed debate' should overcome Cold War mentality Should the development of artificial in…",
+    "COLD_WAR_FRAME": "US AI 'speed debate' should overcome Cold War mentality Should the development of art…",
+    "AI_US_TARGET": "…government and industry figures, led by Anthropic CEO Dario Amodei. When accelerating is…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "ffa6324982e7d1ec",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-21T05:49:00Z",
+   "day": "2026-09-21",
+   "date_q": "page",
+   "title": "China, US hold economic and trade talks in New York; trade issues, AI among topics discussed",
+   "url": "https://www.globaltimes.cn/page/202609/1371021.shtml",
+   "summary": "",
+   "excerpts": [
+    "Chinese and US economic and trade officials held talks on Sunday local time on economic and trade issues of mutual concern, with artificial intelligence (AI) also among the topics discussed, Xinhua News Agency reported on Monday.",
+    "Guided by the important consensus reached by the two heads of state and upholding the principles of mutual respect, peaceful coexistence and win-win cooperation, the two sides held candid, in-depth and constructive exchanges on major economic and trade issues of mutual concern, including implementing the consensus reached during previous economic and trade consultations and promoting bilateral trade and investment. The two sides also held a dialogue on issues related to artificial intelligence.",
+    "Notably, the New York talks also touched on artificial intelligence, an issue drawing growing international attention. Chinese experts said that as AI advances rapidly, greater China-US coordination on governance is increasingly expected by the international community and is also needed to support the sector’s sound and responsible development."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "PRC_OFFICIAL_PHRASING"
+   ],
+   "hits": {
+    "AI": "…trade talks in New York; trade issues, AI among topics discussed Chinese and US e…",
+    "PRC_OFFICIAL_PHRASING": "…utual respect, peaceful coexistence and win-win cooperation, the two sides held candid,…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "0236af1f65a985df",
+   "outlet": "People's Daily",
+   "source": "peoplesdaily-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-21T04:00:00Z",
+   "day": "2026-09-21",
+   "date_q": "url",
+   "title": "The world's first large-scale embodied AI theme park opens in Zhuhai, South China",
+   "url": "http://en.people.cn/n3/2026/0921/c90000-20502063.html",
+   "summary": "",
+   "excerpts": [
+    "An AgiBot robot gives a tea ceremony demonstration at Chimelong Spaceship Park in Hengqin, Zhuhai, South China's Guangdong Province. Photo: Courtesy of Chimelong Group",
+    "The world's first large-scale embodied artificial (AI) theme park, jointly developed by Chinese embodied AI company AgiBot and cultural tourism conglomerate Chimelong Group, opened on Sunday at the Chimelong Spaceship Park in Hengqin, Zhuhai, South China's Guangdong Province, Chinese media reports said.",
+    "A number of industry-first achievements were unveiled, including the world's first large-scale innovative application of 5G-A-enabled embodied AI in a cultural and tourism scenario."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "The world's first large-scale embodied AI theme park opens in Zhuhai, South China…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "355039ac3c4626c6",
+   "outlet": "People's Daily (Chinese)",
+   "source": "peoplesdaily-zh-opinion",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-21T04:00:00Z",
+   "day": "2026-09-21",
+   "date_q": "url",
+   "title": "推动人工智能更好赋能卫生健康治理（专题深思）",
+   "url": "http://opinion.people.com.cn/n1/2026/0921/c461530-40802308.html",
+   "summary": "",
+   "excerpts": [
+    "当前，新一轮科技革命和产业变革深入发展，人工智能加速融入经济社会发展各领域。习近平主席在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上指出：“全面促进人工智能科技创新、产业发展、场景应用”“让人工智能赋能千行百业”。这为推动人工智能健康有序发展、使其更好赋能经济社会发展提供了重要遵循。卫生健康领域是人工智能发挥应用价值的重要领域。《国民健康“十五五”规划》对“推进全民健康数智化建设”“深入推进以健康为中心的高效能治理”作出部署。我们要更好发挥人工智能作用，让数据更好成为治理资源，让智能更好服务管理决策，让技术更好增进人民健康福祉，不断提升卫生健康治理水平，为健康中国建设提供有力支撑。",
+    "近年来，人工智能在卫生健康领域加快应用，为提升医疗卫生服务能力提供了新的技术支撑。随着医疗卫生服务体系规模扩大、诊疗活动日益复杂，医疗质量安全风险的及早发现、医疗资源的科学配置、运行风险的精准识别防范，都对卫生健康治理能力提出了更高要求。推动人工智能赋能卫生健康治理，不能简单理解为建设智能平台、开发应用场景，而是要坚持系统思维，把握卫生健康治理规律，回答好数据如何贯通、智能能力如何提升、管理流程如何优化、安全底线如何守牢等关键问题，推动卫生健康治理理念、治理方式和治理能力变革。具体而言，可从以下几个维度着力。",
+    "夯实数据基础，筑牢智能治理根基。数据是人工智能赋能卫生健康治理的关键要素。卫生健康领域的多维度业务、多类型问题相互交织关联，只有整合多源关联数据，才能实现全面研判、系统治理。通过健全数据标准规范、完善数据资源目录等，提高数据规范化治理水平，推动医疗卫生数据标准统一、加强关联共享，为智能分析、精准管理和科学监管提供可靠支撑。推进医疗、医保、医药数据共享，支持重点地区建设医药行业高质量数据集与可信数据空间，为风险识别、运行监测、科学决策提供可靠支撑。统筹配置算力、模型、知识库、规则库，建强安全防护能力，避免重复建设。特别是在医疗质量、安全、费用等领域，推动法规制度、行业标准、管理规范中的有关内容转化为机器可识别、系统可执行的监管规则，使智能分析有依据、管理应用有标准，为人工智能稳定运行提供支撑。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_GOVERNANCE"
+   ],
+   "hits": {
+    "AI": "推动人工智能更好赋能卫生健康治理(专题深思) 当前,新一轮科技革命和产业变革深入发展,人工智…",
+    "AI_GOVERNANCE": "…发展,人工智能加速融入经济社会发展各领域。习近平主席在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上指出:“全面促进人工智能科技创新、产业发展、场景应用”“让人工…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "3b877ff372f5e431",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-21T04:00:00Z",
+   "day": "2026-09-21",
+   "date_q": "url",
+   "title": "China's new calling cards: AI, robots and new drugs",
+   "url": "https://www.chinadaily.com.cn/a/202609/21/WS6ab09a1ee4b06d4aa055f36c.html",
+   "summary": "",
+   "excerpts": [
+    "China's new calling cards: AI, robots and new drugs - Chinadaily.com.cn",
+    "China's new calling cards: AI, robots and new drugs",
+    "\"Made in China\" just leveled up again, with the unveiling of the new \"new three\" — AI, robotics, and innovative drugs — reshaping China's global image via exporting patents, algorithms and technology."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "China's new calling cards: AI, robots and new drugs China's new calli…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "909b99edbf4ed75f",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-21T04:00:00Z",
+   "day": "2026-09-21",
+   "date_q": "url",
+   "title": "China to further prioritize AI-driven manufacturing",
+   "url": "https://www.chinadaily.com.cn/a/202609/21/WS6ab06e17e4b06d4aa055f1d8.html",
+   "summary": "",
+   "excerpts": [
+    "China is putting artificial intelligence at the heart of its next manufacturing push, seeking to make factories smarter and critical supply chains more resilient, while keeping the world's largest manufacturing base plugged into global markets, officials, company executives and industry experts said on Sunday.",
+    "The timing of the two gatherings underscores a shift in the country's industrial priorities. Xin Guobin, vice-minister of industry and information technology, said at the Anhui convention that China will make a new generation of intelligent manufacturing a priority and push for the deeper integration of AI in manufacturing.",
+    "\"China will cultivate smart factories, develop open-source foundation models and industry-specific AI models, strengthen domestic manufacturing software and hardware, and accelerate the low-carbon transformation of factories,\" Xin said."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "China to further prioritize AI-driven manufacturing China is putting a…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "ba9eb6cd030c0e0a",
+   "outlet": "People's Daily (Chinese)",
+   "source": "peoplesdaily-zh-world",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-21T04:00:00Z",
+   "day": "2026-09-21",
+   "date_q": "url",
+   "title": "海外留学生东博会现场感慨：中国AI…",
+   "url": "http://world.people.com.cn/n1/2026/0921/c1002-40802935.html",
+   "summary": "",
+   "excerpts": [
+    "人民网南宁9月21日电 （记者沈泉池）“5分钟能批改完一个班的作业，太实用了。”9月19日，在第23届中国—东盟博览会人工智能展区，来自印度尼西亚的留学生陈文礼和叶嘉美站在一台智能批阅机前，一边录视频一边感叹。他们随后把所见所闻发到了海外社交媒体账户上，推荐给自己国家的朋友和家人。",
+    "当天两人在展区逛了一整个下午。从能批改作业的设备，到智能黑板，再到AI眼镜，他们感慨中国的人工智能并不只是“炫技”，而是扎扎实实嵌入了教育、医疗、办公等日常场景。",
+    "“在印尼，很多人提到AI想到的还是科幻电影里的东西。但在中国，AI就在学校里帮老师改作业，在医院里帮医生看片子，在车站里帮你刷脸进站。”陈文礼说，这事设备技术很先进，但用起来却很简单。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_PRC_POSITIVE"
+   ],
+   "hits": {
+    "AI": "海外留学生东博会现场感慨:中国AI... 人民网南宁9月21日电 (记者沈泉池)“5分钟能批改完一个班的作业,太实用…",
+    "AI_PRC_POSITIVE": "海外留学生东博会现场感慨:中国AI... 人民网南宁9月21日电 (记者沈泉池)“5分钟能批改完一个班的作业,太实…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "c49563dbdaabcbd7",
+   "outlet": "PRC Foreign Ministry",
+   "source": "mfa-pressers",
+   "lang": "en",
+   "kind": "presser",
+   "date": "2026-09-21T04:00:00Z",
+   "day": "2026-09-21",
+   "date_q": "url",
+   "title": "Foreign Ministry Spokesperson Guo Jiakun’s Regular Press Conference on September 21, 2026",
+   "url": "https://www.fmprc.gov.cn/eng/xw/fyrbt/lxjzh/202609/t20260921_12027763.html",
+   "summary": "",
+   "excerpts": [
+    "The New York Times: CNN reported at the end of last week that the U.S. military had been falsely responding to an AI report that a Chinese vessel was moving military components to the Middle East. Do you have any comment on this? / Guo Jiakun: I am not aware of what you mentioned."
+   ],
+   "ai": true,
+   "seams": [
+    "MIL"
+   ],
+   "prc": [],
+   "hits": {
+    "AI": "…itary had been falsely responding to an AI report that a Chinese vessel was moving…",
+    "MIL": "…d at the end of last week that the U.S. military had been falsely responding to an AI report that a Chinese vessel was moving…"
+   },
+   "speaker": "Guo Jiakun",
+   "n_paras": 28,
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "dbc7efe18268e6fa",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-21T04:00:00Z",
+   "day": "2026-09-21",
+   "date_q": "url",
+   "title": "Gartner: Half of global enterprises to adopt Chinese AI models by 2027",
+   "url": "https://www.chinadaily.com.cn/a/202609/21/WS6ab12df6e4b06d4aa055f554.html",
+   "summary": "",
+   "excerpts": [
+    "Half of the enterprises worldwide are expected to include Chinese large language and multimodal models in their AI portfolios by 2027, surging from 5 percent in 2025, the latest Gartner report showed.",
+    "The forecast, presented at Gartner's top 10 AI trends in China for 2026, points to growing international demand for Chinese models as companies seek affordable, adaptable foundations for AI applications.",
+    "The report also highlights China's push for greater technological self-reliance. The country met 45 percent of its domestic demand for consumer electronics semiconductors in 2025, according to Gartner data. By 2030, the research and advisory platform expects that share to reach 75 percent, with self-sufficiency across the overall semiconductor market rising to 51 percent."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_PRC_POSITIVE"
+   ],
+   "hits": {
+    "AI": "…of global enterprises to adopt Chinese AI models by 2027 Half of the enterprises…",
+    "AI_PRC_POSITIVE": "…er: Half of global enterprises to adopt Chinese AI models by 2027 Half of the enterprises…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "43ffc1b53a001670",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-20T13:35:00Z",
+   "day": "2026-09-20",
+   "date_q": "page",
+   "title": "More than 300 robots showcase real-world skills at Hangzhou event",
+   "url": "https://www.globaltimes.cn/page/202609/1370971.shtml",
+   "summary": "",
+   "excerpts": [
+    "Robots assemble at an intelligent robot application skills exhibition in Hangzhou, East China's Zhejiang Province on September 20, 2026. Photo: VCG",
+    "More than 300 robots assembled at an intelligent robot application skills exhibition on Sunday in Hangzhou, East China's Zhejiang Province, ready to be put to the test and sharpen their skills across key scenarios — manufacturing, maintenance and repair, food and retail, medical care and elder services, and emergency rescue — as they demonstrate their real ability to \"take up the job\" in dangerous and high-stakes situations.",
+    "According to CCTV News, the Hangzhou Public Security Bureau brought 60 sets of smart police equipment to the event. These traffic-control robots officially hit the street and reported for duty on May 1 this year. On smooth, even roads, wheeled robots are the stars of the show — efficient, energy-saving, and fast."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "More than 300 robots showcase real-world skills at Hangzhou…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "6177d7562c2b1d9d",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-20T12:42:00Z",
+   "day": "2026-09-20",
+   "date_q": "page",
+   "title": "GT Voice: AI innovation competition should never become zero-sum rivalry",
+   "url": "https://www.globaltimes.cn/page/202609/1370967.shtml",
+   "summary": "",
+   "excerpts": [
+    "Artificial intelligence (AI) competition has become a heated topic in the world, with assessments comparing the AI development in China and the US drawing particular attention. Lately, a research firm claimed that China's AI investment scale remains below US investment level, and Chinese AI firms appear to trail their US counterparts in business revenues.",
+    "Such observations often draw public eyeballs. However, what many such comparisons overlook is that the Chinese and American AI industries are at different stages of development, rely on different industrial chain foundations, and have formed their own development approaches. Comparing them by a few financial indicators is limited and misleading too.",
+    "And, many current discussions frame Chinese and American AI development as a zero-sum race where only one side can emerge as the winner. A close look at on-the-ground industrial reality paints a far more nuanced picture."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_PRC_POSITIVE",
+    "PRC_OFFICIAL_PHRASING",
+    "COLD_WAR_FRAME"
+   ],
+   "hits": {
+    "AI": "GT Voice: AI innovation competition should never bec…",
+    "AI_PRC_POSITIVE": "…n. Lately, a research firm claimed that China's AI investment scale remains below US inves…",
+    "PRC_OFFICIAL_PHRASING": "…ovation competition should never become zero-sum rivalry Artificial intelligence (AI) competitio…",
+    "COLD_WAR_FRAME": "…ovation competition should never become zero-sum rivalry Artificial intelligence (AI) co…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "276cef0c275f9114",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-20T11:14:00Z",
+   "day": "2026-09-20",
+   "date_q": "page",
+   "title": "China unveils first multilingual, multimodal AI input method for Tibetan language",
+   "url": "https://www.globaltimes.cn/page/202609/1370962.shtml",
+   "summary": "",
+   "excerpts": [
+    "The world's first Tibetan-language large language model, DeepZang, is unveiled on March 16, 2026. Photo: VCG",
+    "China unveiled what was described as the country's first multilingual, fully multimodal AI input method for the Tibetan language on Sunday in Xining, Northwest China's Qinghai Province, marking a further step in bringing Tibetan-language AI technology into everyday use.",
+    "The Zhida AI Input Method was unveiled at an event marking the 70th anniversary of Qinghai Normal University. Developed by the State Key Laboratory of Tibetan Intelligence, it is powered by the laboratory's proprietary large language models and supporting AI infrastructure, China News Service (CNS) reported on Sunday."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "…unveils first multilingual, multimodal AI input method for Tibetan language The w…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "bc93f7f26b75346f",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-20T08:15:00Z",
+   "day": "2026-09-20",
+   "date_q": "page",
+   "title": "The world's first large-scale embodied AI theme park opens in Zhuhai, South China",
+   "url": "https://www.globaltimes.cn/page/202609/1370949.shtml",
+   "summary": "",
+   "excerpts": [
+    "An AgiBot robot gives a tea ceremony demonstration at Chimelong Spaceship Park in Hengqin, Zhuhai, South China's Guangdong Province. Photo: Courtesy of Chimelong Group",
+    "The world's first large-scale embodied artificial (AI) theme park, jointly developed by Chinese embodied AI company AgiBot and cultural tourism conglomerate Chimelong Group, opened on Sunday at the Chimelong Spaceship Park in Hengqin, Zhuhai, South China's Guangdong Province, Chinese media reports said.",
+    "A number of industry-first achievements were unveiled, including the world's first large-scale innovative application of 5G-A-enabled embodied AI in a cultural and tourism scenario."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "The world's first large-scale embodied AI theme park opens in Zhuhai, South China…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "979dc9fbe0d55b68",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-20T05:47:00Z",
+   "day": "2026-09-20",
+   "date_q": "page",
+   "title": "Chinese chipmaker CXMT's 5th-generation memory-chip platform enters mass production, marking new breakthrough in process scaling",
+   "url": "https://www.globaltimes.cn/page/202609/1370944.shtml",
+   "summary": "",
+   "excerpts": [
+    "Chinese memory chipmaker ChangXin Memory Technologies (CXMT) announced on Sunday that its fifth-generation DRAM technology platform, known as the G5 platform, has entered mass production, marking a new breakthrough in process scaling, the Global Times learned from the company.",
+    "CXMT, a leading Chinese memory chipmaker based in Hefei, said it will continue to advance its technology in line with global market demand and develop higher-performance, more reliable memory products.",
+    "The launch comes as global demand for memory chips continues to rise, driven in part by expanding AI infrastructure. TrendForce said global DRAM industry revenue jumped 59.5 percent quarter-on-quarter in the second quarter of 2026, while supply expansion continued to lag demand growth."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Chinese chipmaker CXMT's 5th-generation memory-chip platf…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "6f7201cd12cd0a0c",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-20T04:00:00Z",
+   "day": "2026-09-20",
+   "date_q": "url",
+   "title": "CXMT mass-producing G5 DRAM as new 24Gb chips reach flagship phones",
+   "url": "https://www.chinadaily.com.cn/a/202609/20/WS6aaf7abee4b06d4aa055f08a.html",
+   "summary": "",
+   "excerpts": [
+    "Chinese memory-chip maker CXMT said on Sunday that it has begun mass production of a new-generation DRAM manufacturing platform approaching the industry's most advanced production processes, marking another step in China's drive to close the technology gap with global semiconductor heavyweights.",
+    "Its latest 24-gigabit LPDDR5X memory chip has also entered mass production and is already being used in mainstream Chinese flagship smartphones, CXMT said.",
+    "At the World Manufacturing Convention held in Hefei, CXMT vice-president Luo Xiaodong said that the chips are built on CXMT's newly mass-produced fifth-generation, or G5, DRAM technology platform and hold 50 percent more data than equivalent products from its previous generation."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "CXMT mass-producing G5 DRAM as new 24Gb chips reach flagship phones Chinese memory-ch…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "7f8a3cf83d14da6e",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-20T04:00:00Z",
+   "day": "2026-09-20",
+   "date_q": "url",
+   "title": "机器人东博会上“拼才艺”（组图）",
+   "url": "http://www.xinhuanet.com/tech/20260920/2298c3fe9c964b60bfc6e3dd958b25e9/c.html",
+   "summary": "",
+   "excerpts": [
+    "9月19日，在广西南宁举办的中国—东盟博览会上，小朋友在与机器人“对话”。",
+    "连日来，在广西南宁举办的中国—东盟博览会上，多款智能机器人轮番亮相，展示舞蹈、演奏、写字、泡茶、智能交互等技能，成为展会上亮眼图景。",
+    "9月19日，在广西南宁举办的中国—东盟博览会上，机器人在弹奏乐器。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "机器人东博会上“拼才艺”(组图) 9月19日,在广西南宁举办的中国-东盟博览会上,小朋…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "ebf5b6cc936948a6",
+   "outlet": "Global Times",
+   "source": "globaltimes-world",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-20T00:08:00Z",
+   "day": "2026-09-20",
+   "date_q": "page",
+   "title": "Trump says he plans to form AI Force, appoint AI \"Czar\"",
+   "url": "https://www.globaltimes.cn/page/202609/1370916.shtml",
+   "summary": "",
+   "excerpts": [
+    "U.S. President Donald Trump said Saturday that he is forming an \"AI Force\" and will announce an \"AI Czar\" in the near future.",
+    "In a post on his Truth Social account, Trump said he would not stand by and let the \"decimation or destruction\" of AI happen.",
+    "Trump also described AI as the next Industrial Revolution or Internet, and said it could possibly account for as much as 25 percent of U.S. gross domestic product."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Trump says he plans to form AI Force, appoint AI \"Czar\" U.S. President…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "b0b4461715417fa0",
+   "outlet": "CGTN",
+   "source": "cgtn-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-20T00:07:24Z",
+   "day": "2026-09-20",
+   "date_q": "feed",
+   "title": "Trump says he plans to form AI Force, appoint AI 'Czar'",
+   "url": "https://news.cgtn.com/news/2026-09-20/Trump-says-he-plans-to-form-AI-Force-appoint-AI-Czar--1QAeF93euoo/p.html",
+   "summary": "US President Donald Trump said Saturday that he is forming an \"AI Force\" and will announce an \"AI Czar\" in the near future.",
+   "excerpts": [
+    "The OpenAI headquarters in San Francisco, California, US, September 16, 2026. /VCG",
+    "US President Donald Trump said Saturday that he is forming an \"AI Force\" and will announce an \"AI Czar\" in the near future.",
+    "In a post on his Truth Social account, Trump said he would not stand by and let the \"decimation or destruction\" of AI happen."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_US_TARGET"
+   ],
+   "hits": {
+    "AI": "Trump says he plans to form AI Force, appoint AI 'Czar' US President D…",
+    "AI_US_TARGET": "…ce an \"AI Czar\" in the near future. The OpenAI headquarters in San Francisco, Californ…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "62ffe3366179cec4",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-19T16:08:00Z",
+   "day": "2026-09-20",
+   "date_q": "page",
+   "title": "China's embodied intelligence is moving from stage to factory floor",
+   "url": "https://www.globaltimes.cn/page/202609/1370904.shtml",
+   "summary": "",
+   "excerpts": [
+    "Postal workers check the application of embodied AI robots on a sorting line at the Guangzhou postal district center on September 3, 2026. Photo: VCG",
+    "In a \"robot school\" on the embodied intelligence future island in Hangzhou, East China's Zhejiang Province, four machines have recently graduated.",
+    "One was hired as a guide at a major Chinese painting museum. Another stayed on to give tours at the school itself. A third headed to a Nestlé workshop in North China's Tianjin for inspection duties. The fourth, a piano-playing robot, is bound for entertainment venues in South Korea."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "China's embodied intelligence is moving from stage to factory floor P…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "8313312cc3419def",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-19T15:10:00Z",
+   "day": "2026-09-19",
+   "date_q": "page",
+   "title": "Companies from China, ASEAN showcase AI cooperation at 2026 CAEXPO",
+   "url": "https://www.globaltimes.cn/page/202609/1370899.shtml",
+   "summary": "",
+   "excerpts": [
+    "From satellites powered by artificial intelligence (AI) models and geological monitoring services to self-driving trucks, companies have been steadily expanding their AI cooperation, said participants at the 23rd China-ASEAN Expo (CAEXPO) currently being held in Nanning, South China's Guangxi Zhuang Autonomous Region.",
+    "Inside the hall displaying advanced technologies from Chinese companies, Shandong-based satellite developer Star.ai Spatio-temporal Intelligence Technology Co. showcased how the company's satellites, later to be formed into a constellation, can empower Global South countries with AI-powered services in the fields of agriculture, disaster early warning and ecological cooperation.",
+    "Through cooperation with Guangxi's Chongzuo, as well as co-research with space institutions and universities from ASEAN countries, a China-ASEAN AI-powered constellation is being formed."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_GOVERNANCE"
+   ],
+   "hits": {
+    "AI": "Companies from China, ASEAN showcase AI cooperation at 2026 CAEXPO From satelli…",
+    "AI_GOVERNANCE": "…ormed into a constellation, can empower Global South countries with AI-powered services in the fields of agric…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "741421cc0305a1a4",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-19T13:16:00Z",
+   "day": "2026-09-19",
+   "date_q": "page",
+   "title": "AI boom turns copper, aluminum and niche metals into 'compute metals'",
+   "url": "https://www.globaltimes.cn/page/202609/1370893.shtml",
+   "summary": "",
+   "excerpts": [
+    "In a copper workshop in Ningbo, East China's Zhejiang Province, thick copper ingots are rolled, cleaned and pressed into copper strip coils. These materials will eventually become high-speed connectors and other components used in artificial intelligence (AI) servers, data centers, and high-end telecommunications equipment, according to a representative from the company.",
+    "As China's intelligent computing centers, data centers and new energy-related industries heat up, orders for such products are rising sharply, with some companies reportedly seeing demand outpacing supply, the CCTV Finance News reported.",
+    "A group of nonferrous metals that once served traditional manufacturing - including copper, aluminum, tin, tantalum, indium, germanium and gallium - have recently been given a new market label: \"compute metals.\" Driven by the accelerated build-out of AI computing infrastructure, market demand for these nonferrous metals has surged, pushing prices broadly higher."
+   ],
+   "ai": true,
+   "seams": [
+    "DC"
+   ],
+   "prc": [],
+   "hits": {
+    "AI": "AI boom turns copper, aluminum and niche m…",
+    "DC": "…China's intelligent computing centers, data centers and new energy-related industries heat up, orders for…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "83403278f4961dd3",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-world",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-19T04:00:00Z",
+   "day": "2026-09-19",
+   "date_q": "url",
+   "title": "全球连线丨AI真的会让普通人创业更容易吗？",
+   "url": "https://www.news.cn/20260919/a639e2b71d60451f8f3b548bcc74ae2f/c.html",
+   "summary": "",
+   "excerpts": [],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "全球连线丨AI真的会让普通人创业更容易吗?"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "1d7194f965870c61",
+   "outlet": "People's Daily (Chinese)",
+   "source": "peoplesdaily-zh-opinion",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-18T04:00:00Z",
+   "day": "2026-09-18",
+   "date_q": "url",
+   "title": "人民锐评：守住原创底线，AI音乐不能无规则生长",
+   "url": "http://opinion.people.com.cn/n1/2026/0918/c436867-40801403.html",
+   "summary": "",
+   "excerpts": [
+    "打开短视频平台，“AI孙燕姿”“AI周杰伦”的翻唱视频随处可见，播放量动辄几百万，评论区一水儿的“太像了”。可技术带来的热闹背后，侵权正在悄悄发生。",
+    "2024年4月，全国首例AI声音侵权案在北京宣判：对录音制品的授权不等于对声音AI化的授权，未经授权把别人的声音AI化并拿来牟利，就是侵权，判赔25万元。判决落地了，类似的事却没消停。杭州一家公司擅用离职员工的声音训练AI、给虚拟角色配音商用，同样被法院认定侵犯声音权。从明星到普通打工人，谁都可能成为“被偷声音”的那个人。",
+    "AI音乐不是凭空长出来的，它的“养料”正是海量人类原创歌曲。根据我国著作权法对“合理使用”的划定，AI训练直接抓取原创作品，并不在合法使用之列。《生成式人工智能服务管理暂行办法》也明确要求训练数据来源合法、不得侵犯他人依法享有的知识产权。说白了，把别人的心血之作“喂”给AI练手，既不合法，也不合理。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "人民锐评:守住原创底线,AI音乐不能无规则生长 打开短视频平台,“AI孙燕姿”“AI周杰伦”的翻唱视频随处可…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "915c549930847095",
+   "outlet": "People's Daily",
+   "source": "peoplesdaily-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-18T04:00:00Z",
+   "day": "2026-09-18",
+   "date_q": "url",
+   "title": "GT Voice: China-US collaboration in AI not an option but an imperative",
+   "url": "http://en.people.cn/n3/2026/0918/c90000-20501140.html",
+   "summary": "",
+   "excerpts": [
+    "AI Photo: People's Daily Online",
+    "Debates over artificial intelligence (AI)-driven risks have been heating up in the US. In a flash poll of attendees at a Yale School of Management event this week, 93 percent cited AI safety threats as real, The Wall Street Journal reported on Wednesday.",
+    "The participants were not casual observers but chief executives from various industries. Their broad recognition that AI risks are no hoax shows the issue is no longer confined to technology circles."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_COOPERATION"
+   ],
+   "hits": {
+    "AI": "GT Voice: China-US collaboration in AI not an option but an imperative AI Phot…",
+    "AI_COOPERATION": "GT Voice: China-US collaboration in AI not an option but an imperative AI Phot…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "eee9abf163246fd4",
+   "outlet": "People's Daily (Chinese)",
+   "source": "peoplesdaily-zh-world",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-18T04:00:00Z",
+   "day": "2026-09-18",
+   "date_q": "url",
+   "title": "“人工智能赋能人权发展”主题边会在日内瓦举行",
+   "url": "http://world.people.com.cn/n1/2026/0918/c1002-40801150.html",
+   "summary": "",
+   "excerpts": [
+    "人民网日内瓦9月17日电（记者刘赫） 在联合国人权理事会第63届会议期间，“人工智能赋能人权发展”主题边会在日内瓦万国宫举行。会议由中国常驻日内瓦代表团和中国民间组织国际交流促进会合作举办，澳大利亚、荷兰、挪威、新加坡、瑞士、古巴等20余国代表、非政府组织负责人和专家学者近百人齐聚一堂，深入探讨加强全球人工智能治理，助力人权保障。",
+    "中国常驻日内瓦代表团参赞王念表示，中国致力于响应全球南方呼声、团结国际社会促进人工智能赋能人权保障。中方在人权理事会提出人工智能促进人权保障系列共同发言，提出“人人享有无障碍”专题决议，倡导坚持以人为本、普惠包容、合作共赢，促进人工智能赋能残疾人、老年人、妇女、儿童等群体权利，保障各类群体平等参与社会生活。",
+    "中国民间组织国际交流促进会副秘书长刘振中在发言中分享了中国民间社会运用人工智能技术参与自然灾害救援的实践与思考，强调人工智能是一把双刃剑，既为人权发展带来全新机遇，也存在潜在治理风险，呼吁国际社会充分发挥民间组织桥梁纽带作用，完善全球人工智能治理体系，推动智能科技成果公平普惠服务于各国人权事业发展。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "PRC_OFFICIAL_PHRASING",
+    "AI_GOVERNANCE"
+   ],
+   "hits": {
+    "AI": "“人工智能赋能人权发展”主题边会在日内瓦举行 人民网日内瓦9月17日电(记者刘赫) 在联合…",
+    "PRC_OFFICIAL_PHRASING": "…权保障系列共同发言,提出“人人享有无障碍”专题决议,倡导坚持以人为本、普惠包容、合作共赢,促进人工智能赋能残疾人、老年人、妇女、儿童等群体权利,保障各类群体平等参与社会…",
+    "AI_GOVERNANCE": "…瑞士、古巴等20余国代表、非政府组织负责人和专家学者近百人齐聚一堂,深入探讨加强全球人工智能治理,助力人权保障。 中国常驻日内瓦代表团参赞王念表示,中国致力于响应全球南方呼声、…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "ac489546d6258e34",
+   "outlet": "Global Times",
+   "source": "globaltimes-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-17T16:21:00Z",
+   "day": "2026-09-18",
+   "date_q": "page",
+   "title": "GT Economic Investigates: How US AI executives' calls for a safety slowdown actually pose real risks",
+   "url": "https://www.globaltimes.cn/page/202609/1370800.shtml",
+   "summary": "",
+   "excerpts": [
+    "Not long ago, US artificial intelligence (AI) executives were championing the technology's power. Over the past several days, however, they have shifted gears, calling for a slowdown on safety grounds.",
+    "What drove this shift in narrative? What are these leading US AI firms actually doing to address legitimate safety concerns about the technology? Would a so-called coordinated slowdown in AI research actually work? And what does this narrative have to do with the intensifying AI competition between China and the US?",
+    "To answer these questions, the Global Times examined the arguments made by US AI executives, combed through extensive reports on their firms' latest developments, and conducted interviews with veteran Chinese tech analysts. The investigation reveals an ulterior motive - maintaining market dominance - rather than altruistic concerns about safety. Worse still, analysts noted, such narratives advanced in the name of safety actually pose real risks of confrontation and vicious competition."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "GT Economic Investigates: How US AI executives' calls for a safety slowdown…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "aa27d0d004b1ba33",
+   "outlet": "Global Times",
+   "source": "globaltimes-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-17T12:51:00Z",
+   "day": "2026-09-17",
+   "date_q": "page",
+   "title": "US' AI boom fails to revive its industrial base",
+   "url": "https://www.globaltimes.cn/page/202609/1370768.shtml",
+   "summary": "",
+   "excerpts": [
+    "In recent days, there has been a lot of news regarding the development of AI.",
+    "Faced with recent US remarks such as \"whoever wins AI wins,\" and that the US is \"leading China by a lot,\" commentators have since summarized the US' posture more bluntly: US is less worried about AI ending humanity than about America losing to China.",
+    "I came across this news item in Chinese media. In Hebei Province, the Beijing-Tianjin-Hebei region just released an AI-for-manufacturing plan pairing 276 supply-side resources with 520 concrete factory-floor needs. At Shougang Jingtang company, a platform combining large language models, knowledge graphs and industrial AI agents now diagnoses equipment failures on its own and hands workers a repair plan - a case Hebei officially showcased as a model of \"AI+ manufacturing.\" This means AI in…"
+   ],
+   "ai": true,
+   "seams": [
+    "BUB"
+   ],
+   "prc": [
+    "AI_GOVERNANCE"
+   ],
+   "hits": {
+    "AI": "US' AI boom fails to revive its industrial bas…",
+    "BUB": "US' AI boom fails to revive its industrial base In recent…",
+    "AI_GOVERNANCE": "…bei officially showcased as a model of \"AI+ manufacturing.\" This means AI in..."
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "5e38f674f6a776a2",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-17T04:00:00Z",
+   "day": "2026-09-17",
+   "date_q": "url",
+   "title": "Huawei launches latest Ascend supernode to accelerate trillion-parameter AI",
+   "url": "https://www.chinadaily.com.cn/a/202609/17/WS6aabb91ce4b06d4aa055e9fd.html",
+   "summary": "",
+   "excerpts": [
+    "Huawei launches latest Ascend supernode to accelerate trillion-parameter AI - Chinadaily.com.cn",
+    "Huawei launches latest Ascend supernode to accelerate trillion-parameter AI",
+    "Huawei Technologies Co unveiled on Thursday the world's first supernode using near-package optics, or NPO, technology, the Ascend 960, at Huawei Connect 2026, to accelerate trillion-parameter AI model training and inference."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "…ernode to accelerate trillion-parameter AI Huawei launches latest Ascend supernode…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "8b6d322d2881503d",
+   "outlet": "CGTN",
+   "source": "cgtn-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-17T03:46:56Z",
+   "day": "2026-09-17",
+   "date_q": "feed",
+   "title": "China-ASEAN Expo opens with focus on CAFTA 3.0, AI, and Pinglu Canal",
+   "url": "https://news.cgtn.com/news/2026-09-17/China-ASEAN-Expo-opens-with-focus-on-CAFTA-3-0-opportunities-1QvuUOJB1U4/p.html",
+   "summary": "The 23rd China-ASEAN Expo (CAEXPO) opened on Thursday in Nanning, capital of south China's Guangxi Zhuang Autonomous Region, highlighting new business opportunities under the China-ASEAN Free Trade Area (CAFTA) 3.0 framework.",
+   "excerpts": [
+    "AI and the newly opened Pinglu Canal are also key focuses of this year's expo, with dedicated exhibition areas showcasing their potential to drive regional cooperation.",
+    "China has made significant advances in areas such as AI, electric vehicles and renewable energy, said Destarata Mustafa, counselor for political affairs at the Indonesian Embassy in Beijing. \"We hope to expand cooperation with China in these fields.\"",
+    "AI takes center stage at China-ASEAN Expo"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "…EAN Expo opens with focus on CAFTA 3.0, AI, and Pinglu Canal The 23rd China-ASEAN…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "943d5158e6fb406e",
+   "outlet": "China Daily",
+   "source": "chinadaily-tech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-16T04:00:00Z",
+   "day": "2026-09-16",
+   "date_q": "url",
+   "title": "AI translation glasses: See it, understand it",
+   "url": "https://www.chinadaily.com.cn/a/202609/16/WS6aaa2962e4b06d4aa055e59e.html",
+   "summary": "",
+   "excerpts": [
+    "AI translation glasses: See it, understand it - Chinadaily.com.cn",
+    "AI translation glasses: See it, understand it",
+    "China's AI translation glasses provide real time translation for conversations. From travel and business to everyday interactions, they break down language barriers, making communication more natural and the world more accessible."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_PRC_POSITIVE"
+   ],
+   "hits": {
+    "AI": "AI translation glasses: See it, understand…",
+    "AI_PRC_POSITIVE": "…nslation glasses: See it, understand it China's AI translation glasses provide real time t…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "0eb3db9c021c81f3",
+   "outlet": "Global Times",
+   "source": "globaltimes-world",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-16T02:01:00Z",
+   "day": "2026-09-16",
+   "date_q": "page",
+   "title": "UNESCO's AI ethics forum opens in Riyadh, calls for practical governance",
+   "url": "https://www.globaltimes.cn/page/202609/1370631.shtml",
+   "summary": "",
+   "excerpts": [
+    "Asa Regner, deputy director-general of UNESCO speaks at the opening ceremony of the 4th Global Forum on the Ethics of Artificial Intelligence in Riyadh, Saudi Arabia, Sept. 15, 2026. The 4th Global Forum on the Ethics of Artificial Intelligence (AI) opened in Riyadh on Tuesday, where delegates discussed aligning AI development with safety and responsibility requirements. (Xinhua/Luo Chen)",
+    "The 4th Global Forum on the Ethics of Artificial Intelligence (AI) opened in Riyadh on Tuesday, where delegates discussed aligning AI development with safety and responsibility requirements.",
+    "\"AI is advancing at unprecedented speed, while governance struggles to keep pace,\" Asa Regner, deputy director-general of UNESCO, said at the opening ceremony."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "UNESCO's AI ethics forum opens in Riyadh, calls for…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "bec9e614d910a3a1",
+   "outlet": "CGTN",
+   "source": "cgtn-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-15T19:47:00Z",
+   "day": "2026-09-16",
+   "date_q": "feed",
+   "title": "Anthropic co-founder: AI could spiral out of control",
+   "url": "https://newsus.cgtn.com/news/2026-09-16/Anthropic-co-founder-AI-could-spiral-out-of-control-1Qtjdf6JuMg/p.html",
+   "summary": "Anthropic co-founder: AI could spiral out of control",
+   "excerpts": [
+    "Artificial intelligence companies have been ringing the alarm over the threat of their technology if no oversight is put in place.",
+    "Anthropic co-founder and Head of Policy Jack Clark told the BBC that lawmakers have a limited opportunity to implement safeguards to prevent AI from \"spiraling out of control.\""
+   ],
+   "ai": true,
+   "seams": [
+    "DOOM"
+   ],
+   "prc": [
+    "AI_US_TARGET"
+   ],
+   "hits": {
+    "AI": "Anthropic co-founder: AI could spiral out of cont…",
+    "DOOM": "Anthropic co-founder: AI could spiral out of control Anthropic co-founder: AI could spiral o…",
+    "AI_US_TARGET": "Anthropic co-founder: AI could spiral out of cont…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "ada436fdcdf44f87",
+   "outlet": "Global Times",
+   "source": "globaltimes-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-15T14:46:00Z",
+   "day": "2026-09-15",
+   "date_q": "page",
+   "title": "The US AI Cold‑War script",
+   "url": "https://www.globaltimes.cn/page/202609/1370604.shtml",
+   "summary": "",
+   "excerpts": [],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "PRC_OFFICIAL_PHRASING",
+    "COLD_WAR_FRAME"
+   ],
+   "hits": {
+    "AI": "The US AI Cold-War script",
+    "PRC_OFFICIAL_PHRASING": "The US AI Cold-War script",
+    "COLD_WAR_FRAME": "The US AI Cold-War script"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "7ad5e7f394db9933",
+   "outlet": "CGTN",
+   "source": "cgtn-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-15T08:36:46Z",
+   "day": "2026-09-15",
+   "date_q": "feed",
+   "title": "Beyond Competition: Why we need openness and sharing in the AI era",
+   "url": "https://news.cgtn.com/news/2026-09-15/Beyond-Competition-Why-we-need-openness-and-sharing-in-the-AI-era-1QssSeietl6/p.html",
+   "summary": "Beyond Competition: Why we need openness and sharing in the AI era",
+   "excerpts": [
+    "Three years ago, ChatGPT was almost the only answer to the question, \"Which LLM is best?\" Today, Chinese and US models are taking turns wearing the crown. US firms run on China's low-cost open-source models, while Chinese labs build on cutting-edge US research."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_US_TARGET"
+   ],
+   "hits": {
+    "AI": "…Why we need openness and sharing in the AI era Beyond Competition: Why we need ope…",
+    "AI_US_TARGET": "…sharing in the AI era Three years ago, ChatGPT was almost the only answer to the quest…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "077b09d266ac8a9f",
+   "outlet": "CGTN",
+   "source": "cgtn-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-14T11:49:14Z",
+   "day": "2026-09-14",
+   "date_q": "feed",
+   "title": "Whose AI? Whose rules?",
+   "url": "https://news.cgtn.com/news/2026-09-14/Whose-AI-Whose-rules--1Qr43js7yMM/p.html",
+   "summary": "The US AI Exports Program claims global sharing but demands that US tech is used by default. China's low-cost models get hit with so-called \"adversarial distillation\" sanctions. \"Pax Silica\" is forcing partners to pick sides. Public good or private club? CGTN's Wang Tianyu explains.",
+   "excerpts": [
+    "The US AI Exports Program claims global sharing but demands that US technoly is used by default. China's low-cost models get hit with so-called \"adversarial distillation\" sanctions. \"Pax Silica\" is forcing partners to pick sides. Public good or private club? CGTN's Wang Tianyu explains."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Whose AI? Whose rules? The US AI Exports Program…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "c606a52a523d3497",
+   "outlet": "CGTN",
+   "source": "cgtn-business",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-14T04:35:39Z",
+   "day": "2026-09-14",
+   "date_q": "feed",
+   "title": "AI economy takes the spotlight at Inclusion Conference on the Bund",
+   "url": "https://news.cgtn.com/news/2026-09-14/AI-economy-takes-the-spotlight-at-Inclusion-Conference-on-the-Bund--1QoRkLyIDVS/p.html",
+   "summary": "AI economy takes the spotlight at Inclusion Conference on the Bund",
+   "excerpts": [
+    "The Inclusion Conference on the Bund concluded in Shanghai on September 12. This year, the spotlight was on AI agents, embodied intelligence, large-scale computing clusters and other emerging technologies. More than 40 embodied-intelligence companies showcased technologies designed for real-world environments. And that shift from generating information to executing work could be where the next phase of the AI economy begins."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "AI economy takes the spotlight at Inclusio…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "bf5c38b53a2ce28b",
+   "outlet": "China News Service",
+   "source": "ecns-scitech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-14T04:00:00Z",
+   "day": "2026-09-14",
+   "date_q": "url",
+   "title": "China issues world's first AI-based brain-computer interface standard",
+   "url": "https://www.ecns.cn/cns-wire/2026-09-14/detail-ihfkanuz5382256.shtml",
+   "summary": "",
+   "excerpts": [
+    "China issues world's first AI-based brain-computer interface standard",
+    "(ECNS) -- China’s National Medical Products Administration has approved the world’s first product standard for brain-computer interface devices using artificial intelligence to process brainwave data.",
+    "Officials said brain-computer interface devices must learn from large amounts of brainwave data to train AI algorithms that accurately interpret patients’ intentions, making data quality critical to treatment outcomes and safety."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "China issues world's first AI-based brain-computer interface standard…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "f26faa0623f48445",
+   "outlet": "Global Times",
+   "source": "globaltimes-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-13T11:16:00Z",
+   "day": "2026-09-13",
+   "date_q": "page",
+   "title": "Targeting China's AI: US 'tech right' unfolds Cold War playbook",
+   "url": "https://www.globaltimes.cn/page/202609/1370436.shtml",
+   "summary": "",
+   "excerpts": [
+    "On Saturday, a proposal that appeared to advocate for \"anti-over-competition\" in the AI industry quietly stripped away the facade of some figures in the US tech community.",
+    "Dario Amodei, CEO of the US AI company Anthropic, published an online essay that day, stating that \"We must slow the pace at which we improve the capabilities of AI models\" to avoid the risk of technology spiraling out of control. This initiative quickly garnered joint support from big names in the US' AI community, including Elon Musk and Sam Altman.",
+    "On the surface, this appears to be a \"rational statement\" focused on global AI security. A close reading, however, reveals its hidden agenda: The article is packed with containment provisions targeting China and is, in essence, a \"Cold War playbook\" for the AI sector."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_PRC_POSITIVE",
+    "PRC_OFFICIAL_PHRASING",
+    "COLD_WAR_FRAME",
+    "AI_US_TARGET"
+   ],
+   "hits": {
+    "AI": "Targeting China's AI: US 'tech right' unfolds Cold War playb…",
+    "AI_PRC_POSITIVE": "Targeting China's AI: US 'tech right' unfolds Cold War playb…",
+    "PRC_OFFICIAL_PHRASING": "…ing China's AI: US 'tech right' unfolds Cold War playbook On Saturday, a proposal that appeared t…",
+    "COLD_WAR_FRAME": "…ing China's AI: US 'tech right' unfolds Cold War playbook On Saturday, a proposal that a…",
+    "AI_US_TARGET": "…Dario Amodei, CEO of the US AI company Anthropic, published an online essay that day, st…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "2386bd87f8e1b6af",
+   "outlet": "People's Daily (Chinese)",
+   "source": "peoplesdaily-zh-world",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-12T04:00:00Z",
+   "day": "2026-09-12",
+   "date_q": "url",
+   "title": "认知工作室 | 中国AI企业之“罪”，不在蒸馏，而在进步",
+   "url": "http://world.people.com.cn/n1/2026/0912/c1002-40797497.html",
+   "summary": "",
+   "excerpts": [
+    "9日，商务部新闻发言人就美方发布所谓中国人工智能企业对美蒸馏活动相关网络安全公告作出回应，明确指出“美方所谓中国人工智能企业从事“工业规模”蒸馏美模型的指控，于事无凭，于法无据”，一针见血地戳穿了美方将正常技术商业问题政治化、工具化的真面目。",
+    "蒸馏是人工智能领域各个模型间互相学习的通行做法，本质是中性技术手段。一个模型从另一个模型的输出分布中学习、完成能力迁移，是行业降低成本、加速迭代的常规路径。",
+    "美方此番操作，是以网络安全之名，行双重标准之实。近年来，美方不断收紧高端芯片对华出口，试图遏制中国人工智能发展，如今又把蒸馏这一行业常态贴上“威胁”标签。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_PRC_POSITIVE",
+    "PRC_OFFICIAL_PHRASING",
+    "COLD_WAR_FRAME"
+   ],
+   "hits": {
+    "AI": "认知工作室 | 中国AI企业之“罪”,不在蒸馏,而在进步 9日,商务部新闻发言人就美方发布所谓中国人工智…",
+    "AI_PRC_POSITIVE": "认知工作室 | 中国AI企业之“罪”,不在蒸馏,而在进步 9日,商务部新闻发言人就美方发布所谓中国人工智…",
+    "PRC_OFFICIAL_PHRASING": "…”蒸馏美模型的指控,于事无凭,于法无据”,一针见血地戳穿了美方将正常技术商业问题政治化、工具化的真面目。 蒸馏是人工智能领域各个模型间互相学习的通行做法,本质是中性技…",
+    "COLD_WAR_FRAME": "…作,是以网络安全之名,行双重标准之实。近年来,美方不断收紧高端芯片对华出口,试图遏制中国人工智能发展,如今又把蒸馏这一行业常态贴上“威胁”标签。"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "6ba155b956a34b36",
+   "outlet": "Global Times",
+   "source": "globaltimes-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-08T13:32:00Z",
+   "day": "2026-09-08",
+   "date_q": "page",
+   "title": "Unlocking the potential: How SCO AI cooperation could shape a shared digital future",
+   "url": "https://www.globaltimes.cn/page/202609/1370089.shtml",
+   "summary": "",
+   "excerpts": [
+    "One passage in the newly issued Bishkek Declaration after the recent Shanghai Cooperation Organisation (SCO) summit deserves particular attention. It calls for the safe and responsible use of AI, stressing that AI must not be misused to endanger human life and health or undermine national sovereignty, security and territorial integrity.",
+    "This consensus is rooted in an expanding range of real-world cooperation, especially in the region of Central Asia. In fact, in this historically rich region, the development of AI finds a rather fascinating echo in the past.",
+    "Not long ago, during the World Artificial Intelligence Conference in Shanghai, an official at Uzbekistan's IT Park offered one particular example. Asked why Uzbekistan is investing heavily in AI, he did not begin with government plans or investment figures. Instead, he talked about the history of the land itself - more than 1,000 years ago, on the land of Central Asia, the great mathematician Muhammad ibn Musa al-Khwarizmi was born. In recognition of his contributions to mathematics, his name…"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Unlocking the potential: How SCO AI cooperation could shape a shared digita…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "4ea618b7aeb54616",
+   "outlet": "Global Times",
+   "source": "globaltimes-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-06T07:30:00Z",
+   "day": "2026-09-06",
+   "date_q": "page",
+   "title": "From Beijing classrooms to Islamabad servers: Exploring a new model of win‑win tech cooperation in meteorological AI governance",
+   "url": "https://www.globaltimes.cn/page/202609/1369913.shtml",
+   "summary": "",
+   "excerpts": [
+    "Before coming to China, Shahzad had crafted a comprehensive and ambitious learning agenda: to understand China's integrated technical system, decode the operational logic behind core technologies, and, above all, dive deep into artificial intelligence.",
+    "\"AI is my top priority,\" he tells me. \"China leads in AI across every sector, and weather is no exception.\" He aims to grasp the fundamentals of meteorological AI and bring actionable solutions back home to upgrade Pakistan's forecasting and disaster warning systems.",
+    "Shahzad told me what impresses him most about MAZU is not any single groundbreaking gadget, but China's systematic prowess in integrating satellite surveillance, numerical models, ground observations and AI algorithms into a streamlined, end-to-end early-warning workflow."
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "PRC_OFFICIAL_PHRASING",
+    "AI_GOVERNANCE"
+   ],
+   "hits": {
+    "AI": "…-win tech cooperation in meteorological AI governance Before coming to China, Shah…",
+    "PRC_OFFICIAL_PHRASING": "…mabad servers: Exploring a new model of win-win tech cooperation in meteorological AI g…",
+    "AI_GOVERNANCE": "…-win tech cooperation in meteorological AI governance Before coming to China, Shahzad had cra…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "5961c0559642d405",
+   "outlet": "Global Times",
+   "source": "globaltimes-opinion",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-04T13:42:00Z",
+   "day": "2026-09-04",
+   "date_q": "page",
+   "title": "Military strikes on China's data centers? A dangerous delusion",
+   "url": "https://www.globaltimes.cn/page/202609/1369839.shtml",
+   "summary": "",
+   "excerpts": [
+    "The Center for a New American Security (CNAS) has just released a highly inflammatory report that openly discusses \"extreme measures,\" including military strikes on Chinese data centers, to stop China from being first to achieve artificial general intelligence (AGI). It even floats the idea of a \"preemptive strike.\" Talk of using armed force against civilian infrastructure is indistinguishable from terrorism. That such rhetoric can circulate so openly in Washington is startling.",
+    "China and the US are nuclear powers. What it means to advocate \"military strikes on Chinese data centers\" needs no elaboration. Stokes himself conceded that such options could create severe geopolitical tensions and raises the danger of military escalation. Analysts inside the US have already warned that attacking Chinese data centers would be a wager on a shooting war between two nuclear-armed states. China will not let this fantasy succeed.",
+    "The report is evidence of something larger: technology containment of China has slipped from a contest over rules into fantasies of force. It is an attempt to keep political space open for the most dangerous option - an extreme distortion of US' tech-hegemony mindset, and a preview of how terrifying US tech pressure on China could become if it pushes to the limit. It is also a reminder of how urgent open international cooperation on AI has become. Once any country's supercomputers, chip…"
+   ],
+   "ai": true,
+   "seams": [
+    "MIL"
+   ],
+   "prc": [
+    "PRC_OFFICIAL_PHRASING",
+    "COLD_WAR_FRAME"
+   ],
+   "hits": {
+    "AI": "Military strikes on China's data centers? A dangerous delusion The Center for a…",
+    "MIL": "Military strikes on China's data centers? A dangerous delusion The Center for a…",
+    "PRC_OFFICIAL_PHRASING": "…ion - an extreme distortion of US' tech-hegemony mindset, and a preview of how terrifyin…",
+    "COLD_WAR_FRAME": "…vidence of something larger: technology containment of China has slipped from a contest ove…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "ecd3680156fb4b65",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-04T04:00:00Z",
+   "day": "2026-09-04",
+   "date_q": "url",
+   "title": "物理AI才是真正大考，小米成消费级物理AI落地重要观察样本",
+   "url": "https://www.news.cn/tech/20260904/21a54002401e43f38fb43b4ca651dea9/c.html",
+   "summary": "",
+   "excerpts": [
+    "柏林消费电子展（IFA）创办于1924年，是全球消费电子行业重要展示窗口，长期是欧洲消费电子产业的主场。2026年，这场百年展会迎来超过900家中国参展商，占全部参展商接近半数。在这一全球科技竞争前沿展台上，AI产业的发展方向正在清晰转变。",
+    "行业普遍认为，AI上半场聚焦大模型能力比拼，下半场竞争重心转向物理AI落地。北京智源研究院《2026十大AI技术趋势》提出，2026年是AI从数字世界迈向物理世界、从技术演示转向规模价值实现的分水岭。",
+    "竞争不再局限于参数、算力的纸面比拼，真实场景、终端入口、生态协同成为物理AI时代的核心考题。依托完备产业链与庞大智能终端生态，中国科技企业在物理AI落地领域积累诸多实践经验。本届IFA，小米带来“人车家全生态”迄今为止规模最大的海外完整亮相，成为国内消费级物理AI落地的重要观察样本。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "物理AI才是真正大考,小米成消费级物理AI落地重要观察样本 柏林消费电子展(IFA)创办…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "dbff972c5208905d",
+   "outlet": "Xinhua (Chinese)",
+   "source": "xinhua-zh-tech",
+   "lang": "zh",
+   "kind": "article",
+   "date": "2026-09-03T04:00:00Z",
+   "day": "2026-09-03",
+   "date_q": "url",
+   "title": "2026“人工智能+”行业应用创新案例征集启动",
+   "url": "https://www.news.cn/tech/20260903/5d7b2412311643ceb34548b3d5b27220/c.html",
+   "summary": "",
+   "excerpts": [
+    "当前，人工智能赋能千行百业已成为产业转型核心抓手。各领域AI落地实践不断涌现，从智能制造到数字财税，从城市治理到民生服务，人工智能通过重构生产要素、生产关系、生产模式，加速新质生产力发展。各地各部门积极探索人工智能与实体经济、民生服务、社会治理深度融合的实践路径，涌现出一批可复制、可推广的典型经验与创新模式。",
+    "为挖掘优质创新应用成果、重点宣传和推广先进落地模式、赋能产业数智化转型升级，基于新华网“数智样板工程”，新华网联合中国软件评测中心（工业和信息化部软件与集成电路促进中心）共同发起“‘人工智能+’行业应用创新案例征集”活动。此次征集旨在推动和引导“人工智能+”行业应用创新和可持续健康发展，培育人工智能融合应用新场景、新赛道，汇聚政产学研用多方优质资源，构建人工智能发展及应用智能化评测和创新应用交流平台，为后续出台产业政策、优化产业布局、推进人工智能治理提供数据和实践支撑。",
+    "新华网已连续5年基于“数智样板工程”开展案例征集、调研及研究报告发布，积累了行业口碑和影响力。拟在今年12月初举行的2026企业家博鳌论坛上发布“人工智能+”行业应用研究报告，并诚邀部分案例代表齐聚论坛现场，分享人工智能赋能行业高质量发展的实践经验。"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [
+    "AI_GOVERNANCE"
+   ],
+   "hits": {
+    "AI": "2026“人工智能+”行业应用创新案例征集启动 当前,人工智能赋能千行百业已成为产业转型核心抓手。…",
+    "AI_GOVERNANCE": "2026“人工智能+”行业应用创新案例征集启动 当前,人工智能赋能千行百业已成为产业转型核心抓手。各…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  },
+  {
+   "id": "026ecdedc5b28fe8",
+   "outlet": "Global Times",
+   "source": "globaltimes-world",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-01T10:35:00Z",
+   "day": "2026-09-01",
+   "date_q": "page",
+   "title": "Tokyo seeks record defense budget with focus on AI, drones amid 'vigilance among regional countries'",
+   "url": "https://www.globaltimes.cn/page/202609/1369559.shtml",
+   "summary": "",
+   "excerpts": [
+    "The budget request focuses on three key areas, including preparing for what it described as \"new ways of warfare\" by employing AI and drones, ensuring \"sustained operational capabilities\" in a \"prolonged conflict,\" and strengthening Japan's defense industrial base, according to Japanese media outlet the Japan Times on Monday.",
+    "The budget request also includes plans for an AI-based decision-support system, and more small attack drones and uncrewed aerial vehicles (UAVs) for information gathering. The Japanese defense ministry is also seeking research into stand-off missiles launched from uncrewed underwater vehicles (UUVs). The Japan Times noted that Japan's drone buildup has been driven in part by what it described as so-called concerns over Chinese military activities near its southwestern periphery.",
+    "Japan's growing emphasis on AI-assisted decision-making, drones and other unmanned systems reflects lessons drawn from recent conflicts such as the Russia-Ukraine conflict, as well as mounting recruitment difficulties facing the Self-Defense Forces (SDF). But the buildup goes far beyond addressing manpower shortages. Japan's continued development of long-range strike weapons, including missile-related programs, is expanding the SDF's operational reach and offensive capabilities, further…"
+   ],
+   "ai": true,
+   "seams": [
+    "MIL"
+   ],
+   "prc": [],
+   "hits": {
+    "AI": "…eks record defense budget with focus on AI, drones amid 'vigilance among regional…",
+    "MIL": "…eks record defense budget with focus on AI, drones amid 'vigilance among regional countrie…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:57:27Z"
+  },
+  {
+   "id": "d98968a192e79432",
+   "outlet": "China News Service",
+   "source": "ecns-scitech",
+   "lang": "en",
+   "kind": "article",
+   "date": "2026-09-01T04:00:00Z",
+   "day": "2026-09-01",
+   "date_q": "url",
+   "title": "Hong Kong to open its first robot-run retail stores",
+   "url": "https://www.ecns.cn/cns-wire/2026-09-01/detail-ihfiwhfw6698326.shtml",
+   "summary": "",
+   "excerpts": [
+    "Hong Kong to open its first robot-run retail stores",
+    "(ECNS) -- Hong Kong is set to open its first robot-run retail stores, with three Galbot Store outlets scheduled to begin operations on Tuesday.",
+    "People experience shopping at a robot-run retail store in Hong Kong. (Photo: China News Service/ Li Zhihua)"
+   ],
+   "ai": true,
+   "seams": [],
+   "prc": [],
+   "hits": {
+    "AI": "Hong Kong to open its first robot-run retail stores Hong Kong to open its…"
+   },
+   "followed": true,
+   "first_seen": "2026-09-26T04:44:26Z",
+   "last_seen": "2026-09-26T04:44:26Z"
+  }
+ ],
+ "refused": [],
+ "notes": [
+  "Codes are topics, not stance: a hit says an item raised the topic, not which side it took.",
+  "Days are Beijing dates (UTC+8). Volume counts every item seen; items lists AI-relevant items only.",
+  "Feeds hold their latest 20 to 50 items. A gap means a pull came after the previous pull's items had scrolled off; items published inside a gap may be missing.",
+  "DALABA reads official publishers only. It does not read Chinese social media or messaging platforms.",
+  "Listing-page sources are coded on headlines; with --follow, pages whose headlines touch AI, chips, data centers or power prices are read and recoded on their text.",
+  "Some URLs carry only a month (Global Times). Unread items from those outlets are counted in month_only, not in daily volume, so their daily AI share runs high.",
+  "1 archived items have no usable date and sit outside every window."
+ ]
+}
